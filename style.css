@@ -1,0 +1,54 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-family: 'Yesteryear', cursive;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.title {
+    /* width: 100%; */
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.container{
+    text-align: center;
+}
+
+.text_mitte {
+    text-align: center;
+    width: 100%;
+}
+
+.tagesmahlzeiten{
+    background-color: antiquewhite;
+}
+
+.secret_recipe {
+    width: 70%;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.tagesmahlzeit_button{
+    cursor: pointer;
+    border: 2px solid brown;
+    min-height: 200px;
+    min-width: 250px;
+}
