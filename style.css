@@ -9,6 +9,10 @@ html {
     font-family: 'Yesteryear', cursive;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Yesteryear', cursive;
+}
+
 
 a {
     text-decoration: none;
