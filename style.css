@@ -7,9 +7,43 @@ html {
   font-family: "Yesteryear", cursive;
 }
 
-h1 {
+.row.header {
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: rgb(234, 203, 141);
+  height: 600px;
+}
+
+.main-logo {
+  background-image: url(/pngwing.com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+.col.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h2 {
+  color: white;
   font-family: "Yesteryear", cursive;
-  font-size: 5rem;
+  font-size: 7rem;
+  line-height: 6.5rem;
+}
+
+.row.header_type {
+  display: flex;
+  align-items: center;
+}
+
+.row.header_type p {
+  color: rgb(112, 92, 73);
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
