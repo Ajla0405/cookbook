@@ -4,21 +4,9 @@
     margin: 0;    
 }
 
-p {
-    font-family: 'Yesteryear', cursive;
-    letter-spacing: 0.4em;
-}
-
 /* Start Titel by Alfi */
 /* ################################################## */
-.title_headline {
-    font-size: 1.7em;
-    padding-top: 5%;
-}
 
-.title_headline_2 {
-    text-transform: uppercase;    
-}
 
 hr {
     border-width: 6px;
@@ -45,6 +33,15 @@ html {
     font-family: 'Yesteryear', cursive;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Yesteryear', cursive;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -54,11 +51,22 @@ a:hover {
 }
 
 .title {
-    width: 80%;
-    height: 10em;
     /* background-color: antiquewhite; */
     margin-left: auto;
     margin-right: auto;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.ingredients ul {
+    list-style-type: none;
+}
+
+.tagesgericht_title{
+    width: 100%;
+    min-height: 200px;
+    background-color: antiquewhite;
+    padding-top: 5%;
 }
 
 .container{
@@ -97,5 +105,7 @@ a:hover {
 
 .steps {
     min-height: 200px;
-    
+    background-color: antiquewhite;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
