@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -20,8 +22,8 @@ a:hover {
   background-color: antiquewhite;
 }
 
-.tagesgericht_title {
-  width: 100%;
+.ingredients ul {
+  list-style-type: none;
 }
 
 .tagesgericht_title {
