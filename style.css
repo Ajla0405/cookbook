@@ -32,6 +32,7 @@ a:hover {
 
 .container {
   text-align: center;
+  background-image: url(64c6cb30cb1a0814930a9e542febf294.jpeg);
 }
 
 .text_mitte {
@@ -40,9 +41,14 @@ a:hover {
 }
 
 .tagesmahlzeiten {
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
 }
-
+.menu {
+  border: 10px solid green;
+}
+.col-4 {
+  padding: 10px black;
+}
 .secret_recipe {
   width: 70%;
   margin: auto;
