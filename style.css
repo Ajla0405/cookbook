@@ -19,9 +19,12 @@ a:hover {
 }
 
 .title {
-    width: 100%;
     height: 200px;
     background-color: antiquewhite;
+}
+
+.tagesgericht_title{
+    width: 100%;
 }
 
 .container{
