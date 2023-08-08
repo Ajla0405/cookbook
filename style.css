@@ -1,67 +1,68 @@
-
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-
 
 html {
-    font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
 }
 
+h1 {
+  font-family: "Yesteryear", cursive;
+  font-size: 5rem;
+}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .title {
-    height: 200px;
-    background-color: antiquewhite;
+  height: 600px;
+  background-color: antiquewhite;
 }
 
-.tagesgericht_title{
-    width: 100%;
+.tagesgericht_title {
+  width: 100%;
 }
 
-.container{
-    text-align: center;
+.container {
+  text-align: center;
 }
 
 .text_mitte {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
-.tagesmahlzeiten{
-    background-color: antiquewhite;
+.tagesmahlzeiten {
+  background-color: antiquewhite;
 }
 
 .secret_recipe {
-    width: 70%;
-    margin: auto;
-    background-color: antiquewhite;
-    height: 100px;
-    margin-top: 20px;
-    cursor: pointer;
+  width: 70%;
+  margin: auto;
+  background-color: antiquewhite;
+  height: 100px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
-.tagesmahlzeit_button{
-    cursor: pointer;
-    border: 2px solid brown;
-    min-height: 200px;
-    min-width: 250px;
+.tagesmahlzeit_button {
+  cursor: pointer;
+  border: 2px solid brown;
+  min-height: 200px;
+  min-width: 250px;
 }
 
 .ingredients {
-    min-height: 200px;
-    background-color: antiquewhite;
+  min-height: 200px;
+  background-color: antiquewhite;
 }
 
 .steps {
-    min-height: 200px;
-    
+  min-height: 200px;
 }
