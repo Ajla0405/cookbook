@@ -10,7 +10,6 @@ html {
 .row.header {
   margin-top: 50px;
   border-radius: 20px;
-  border: 2px solid black;
   background-color: rgb(234, 203, 141);
   height: 600px;
 }
@@ -19,11 +18,12 @@ html {
   background-image: url(/pngwing.com.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: 100%;
 }
 
 .col.header {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -35,6 +35,7 @@ html {
 }
 
 .row.header_type {
+  max-width: 450px;
   display: flex;
   align-items: center;
 }
@@ -44,6 +45,20 @@ html {
   font-size: 1.4rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.col.text_mitte {
+  border-radius: 20px;
+  background-color: rgb(234, 203, 141);
+  height: 120px;
+  align-items: center;
+}
+
+.col.text_mitte h2 {
+  color: rgb(112, 92, 73);
+  font-family: "Yesteryear", cursive;
+  font-size: 3rem;
+  line-height: 6.5rem;
 }
 
 a {
