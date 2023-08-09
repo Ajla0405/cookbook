@@ -1,8 +1,18 @@
 * {
   padding: 0;
   margin: 0;
-  padding: 0;
-  margin: 0;
+}
+
+/* Start Titel by Alfi */
+/* ################################################## */
+
+hr {
+  border-width: 6px;
+}
+
+.icons_width {
+  width: 30px;
+  height: auto;
 }
 
 html {
@@ -18,6 +28,9 @@ a:hover {
 }
 
 .title {
+  /* background-color: antiquewhite; */
+  margin-left: auto;
+  margin-right: auto;
   height: 200px;
   background-color: antiquewhite;
 }
@@ -28,6 +41,9 @@ a:hover {
 
 .tagesgericht_title {
   width: 100%;
+  min-height: 200px;
+  background-color: antiquewhite;
+  padding-top: 5%;
 }
 
 .container {
