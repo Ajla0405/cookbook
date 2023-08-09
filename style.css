@@ -36,10 +36,11 @@ html {
 /* ab hier Phil CSS */
 
 .row.header {
-  margin-top: 50px;
+  margin: 50px 0px;
   border-radius: 20px;
   background-color: rgb(232, 176, 120);
   height: 600px;
+
 }
 
 .main-logo {
