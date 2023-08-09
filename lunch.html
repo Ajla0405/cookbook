@@ -19,38 +19,40 @@
   <body>
     <header></header>
 
-    <main>
+    <main class="lunch_page">
       <div class="container">
         <a href="index.html" class="row back_button"> <button>back</button></a>
-        <div class="tagesgericht_title">
-          <h1>Grandma´s Lunch</h1>
-          <hr />
-          <h2>Usbekischer Plov</h2>
+          <!-- Alfi 08.08,2023 -->
+          <div class="titel_title title_text_center">
+            <h1>Grandma´s Lunch</h1>
+            <hr class="title-dash"/>
+            <h2>Usbekischer Plov</h2>
 
-          <div class="col_icons row">
-            <div class="col">
-              <img
-                class="icons_width"
-                src="pngwing.com (3).png"
-                alt="cooking pot"
-              />
-              <p>baking</p>
-            </div>
-            <div class="col">
-              <img class="icons_width" src="pngwing.com (1).png" alt="clock" />
-              <p>45 minutes</p>
-            </div>
-            <div class="col">
-              <img
-                class="icons_width"
-                src="pngwing.com (2).png"
-                alt="mixing spoon"
-              />
-              <p>4 persons</p>
-            </div>
-            <div class="col">
-              <img class="icons_width" src="pngwing.com (5).png" alt="star" />
-              <p>6/10</p>
+            <div class="col_icons row">
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="pngwing.com (3).png"
+                  alt="cooking pot"
+                />
+                <p>baking</p>
+              </div>
+              <div class="col">
+                <img class="icons_width" src="pngwing.com (1).png" alt="clock" />
+                <p>45 minutes</p>
+              </div>
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="pngwing.com (2).png"
+                  alt="mixing spoon"
+                />
+                <p>4 persons</p>
+              </div>
+              <div class="col">
+                <img class="icons_width" src="pngwing.com (5).png" alt="star" />
+                <p>6/10</p>
+              </div>
             </div>
           </div>        
 
@@ -81,6 +83,12 @@
           </div>
           <div class="col dish_img">
             <!-- slideshow -->
+            <img class="slides" src="./src/bild (1).jpg" style="width:100%">
+            <img class="slides" src="./src/bild (2).jpg" style="width:100%">
+            <img class="slides" src="./src/bild (3).jpg" style="width:100%">
+            <img class="slides" src="./src/bild (4).jpg" style="width:100%">
+            <img class="slides" src="./src/bild (5).jpg" style="width:100%">
+            <img class="slides" src="./src/bild (6).jpg" style="width:100%">
           </div>
         </div>
         <div class="row steps">
@@ -156,5 +164,31 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+   
+
+   <script>
+        /* 
+        *******************************
+        *******************************
+        Script for Slideshow
+              Pleas not change
+              Thanks Alfi
+        */
+
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
   </body>
 </html>
