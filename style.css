@@ -7,10 +7,12 @@ html {
   font-family: "Yesteryear", cursive;
 }
 
+/* ab hier Phil CSS */
+
 .row.header {
   margin-top: 50px;
   border-radius: 20px;
-  background-color: rgb(234, 203, 141);
+  background-color: rgb(232, 176, 120);
   height: 600px;
 }
 
@@ -30,6 +32,7 @@ html {
 .header h2 {
   color: white;
   font-family: "Yesteryear", cursive;
+  text-align: center;
   font-size: 7rem;
   line-height: 6.5rem;
 }
@@ -43,23 +46,29 @@ html {
 .row.header_type p {
   color: rgb(112, 92, 73);
   font-size: 1.4rem;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.col.text_mitte {
+.container.text_mitte {
   border-radius: 20px;
-  background-color: rgb(234, 203, 141);
-  height: 120px;
+  background-color: rgb(232, 176, 120);
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.col.text_mitte h2 {
+.container.text_mitte h2 {
   color: rgb(112, 92, 73);
   font-family: "Yesteryear", cursive;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 3rem;
   line-height: 6.5rem;
 }
+
+/* bis hier Phil CSS */
 
 a {
   text-decoration: none;
@@ -78,14 +87,7 @@ a:hover {
   width: 100%;
 }
 
-.container {
-  text-align: center;
-}
 
-.text_mitte {
-  text-align: center;
-  width: 100%;
-}
 
 .tagesmahlzeiten {
   background-color: antiquewhite;
