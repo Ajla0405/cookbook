@@ -4,6 +4,11 @@
     margin: 0;    
 }
 
+
+.back_button {
+    position: absolute;
+}
+
 /* Start Titel by Alfi */
 /* ################################################## */
 
@@ -64,9 +69,17 @@ a:hover {
     text-decoration: none;
 }
 
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+}
+
 .ingredients ul {
     list-style-type: none;
 }
+
+
 
 .container{
     text-align: center;
