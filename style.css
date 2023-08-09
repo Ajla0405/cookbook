@@ -28,6 +28,7 @@ body {
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 6%;
+  background-color: antiquewhite;
 }
 
 .title_text_center {
@@ -223,4 +224,17 @@ a:hover {
 
 .lunch_page {
   text-align: center;
+}
+
+
+.zubereitung {
+  /* display: initial; */
+  background-color: antiquewhite !important;
+  background-image: none !important;
+  z-index: 1000;
+  position: relative;
+}
+
+.ingredients h4 {
+  text-decoration: underline;
 }
