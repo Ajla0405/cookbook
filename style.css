@@ -175,6 +175,7 @@ a:hover {
   min-height: 200px;
 }
 
+
 /* 
     Class for slideshow
     Please handle whith care
@@ -195,3 +196,8 @@ a:hover {
 /* 
 ##################################################
 */
+
+.lunch_page {
+    text-align: center;
+}
+
