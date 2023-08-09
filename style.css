@@ -32,7 +32,7 @@ a:hover {
 
 .container {
   text-align: center;
-  background-image: url(64c6cb30cb1a0814930a9e542febf294.jpeg);
+  background-image: url(485ae0e241d0c6c36c7be8825067dd59.jpeg);
 }
 
 .text_mitte {
@@ -43,26 +43,20 @@ a:hover {
 .tagesmahlzeiten {
   /*background-color: antiquewhite;*/
 }
-.menu {
-  border: 10px solid green;
-}
-.col-4 {
-  padding: 10px black;
-}
-.secret_recipe {
+
+.pastry {
   width: 70%;
   margin: auto;
   background-color: antiquewhite;
-  height: 100px;
+  height: 80px;
   margin-top: 20px;
   cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.tagesmahlzeit_button {
-  cursor: pointer;
-  border: 2px solid brown;
-  min-height: 200px;
-  min-width: 250px;
+.col-text {
+  padding-top: 30px;
 }
 
 .ingredients {
