@@ -31,17 +31,12 @@ a:hover {
 }
 
 .container {
-  text-align: center;
-  background-image: url(485ae0e241d0c6c36c7be8825067dd59.jpeg);
+  /* text-align: center;*/
 }
 
 .text_mitte {
   text-align: center;
   width: 100%;
-}
-
-.tagesmahlzeiten {
-  /*background-color: antiquewhite;*/
 }
 
 .pastry {
