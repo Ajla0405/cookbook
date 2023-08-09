@@ -47,7 +47,7 @@ a:hover {
 .pastry {
   width: 70%;
   margin: auto;
-  background-color: antiquewhite;
+  background-color: white;
   height: 80px;
   margin-top: 20px;
   cursor: pointer;
@@ -57,6 +57,7 @@ a:hover {
 
 .col-text {
   padding-top: 30px;
+  font-style: ;
 }
 
 .ingredients {
