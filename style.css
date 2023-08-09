@@ -5,30 +5,33 @@
 
 body {
   background: white;
-  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
-    linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
+  background-image: linear-gradient(
+      90deg,
+      rgba(200, 0, 0, 0.5) 50%,
+      transparent 0
+    ),
+    linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
   background-size: 45px 45px;
 }
 
 /* Start Titel by Alfi */
 /* ################################################## */
 
-
 .title-dash {
-    border-width: 6px;
+  border-width: 6px;
 }
 
-.titel_title{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    min-height: auto;
-    padding-top: 5%;
-    margin-bottom: 6%;
+.titel_title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  min-height: auto;
+  padding-top: 5%;
+  margin-bottom: 6%;
 }
 
 .title_text_center {
-    text-align: center;
+  text-align: center;
 }
 
 .icons_width {
@@ -38,12 +41,9 @@ body {
 
 html {
   font-family: "Yesteryear", cursive;
-  
 }
 
 /* ab hier Phil CSS */
-
-
 
 .row.header {
   margin: 50px 0;
@@ -88,9 +88,10 @@ html {
   margin-right: auto;
 }
 
-.form-control {
-  border: 1.5px solid rgb(112, 92, 73);
-  background-color: rgb(253, 216, 178);
+#userGreeting {
+  font-size: 3.7rem;
+  line-height: 4rem;
+  color: rgb(112, 92, 73);
 }
 
 .container.text_mitte {
@@ -99,6 +100,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .container.text_mitte h2 {
@@ -110,19 +112,22 @@ html {
   line-height: 6.5rem;
 }
 
-.special-word {
+#special-word {
   color: white;
 }
 
 /* bis hier Phil CSS */
-h1, h2, h3, h4, h5 {
-    font-family: 'Yesteryear', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yesteryear", cursive;
 }
 
 h4 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 
 a {
   text-decoration: none;
@@ -133,9 +138,9 @@ a:hover {
 }
 
 .title {
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
 }
 
 .ingredients ul {
@@ -195,7 +200,6 @@ a:hover {
   min-height: 200px;
 }
 
-
 /* 
     Class for slideshow
     Please handle whith care
@@ -203,21 +207,20 @@ a:hover {
     ###########################################
 */
 .slides {
-    width: 100%;
-    max-height: 350px;
-    border-radius: 4px;
+  width: 100%;
+  max-height: 350px;
+  border-radius: 4px;
 }
 
 .dish_img {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
 }
 /* 
 ##################################################
 */
 
 .lunch_page {
-    text-align: center;
+  text-align: center;
 }
-
