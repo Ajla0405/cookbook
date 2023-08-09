@@ -1,9 +1,38 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0;    
 }
 
+
+.back_button {
+    position: absolute;
+}
+
+/* Start Titel by Alfi */
+/* ################################################## */
+
+
+hr {
+    border-width: 6px;
+}
+
+.icons_width {
+    width: 30px;
+    height: auto;
+}
+
+.col_icons {
+    margin-top: 4%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border: 2px solid brown;
+}
+/* #################################################### */
+/* End Title by Alfi */
 
 html {
     font-family: 'Yesteryear', cursive;
@@ -27,7 +56,10 @@ a:hover {
 }
 
 .title {
-    height: 200px;
+    /* background-color: antiquewhite; */
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
     background-color: antiquewhite;
 }
 
@@ -36,9 +68,10 @@ a:hover {
 }
 
 .tagesgericht_title{
-    width: 100%;
-    height: 200px;
+    /* width: 100%; */
+    min-height: 200px;
     background-color: antiquewhite;
+    padding-top: 5%;
 }
 
 .container{
