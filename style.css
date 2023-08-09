@@ -55,6 +55,10 @@ a:hover {
   width: 100%;
 }
 
+.card-title {
+  text-align: center;
+}
+
 .pastry {
   width: 70%;
   margin: auto;
