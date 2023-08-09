@@ -1,37 +1,15 @@
 * {
-    padding: 0;
-    margin: 0;    
-}
-
-
-.back_button {
-    position: absolute;
+  padding: 0;
+  margin: 0;
 }
 
 /* Start Titel by Alfi */
 /* ################################################## */
 
-
-hr {
-    border-width: 6px;
-}
-
 .icons_width {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
-
-.col_icons {
-    margin-top: 4%;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-around; 
-    padding-top: 3%;
-    padding-bottom: 1%;
-    border: 2px solid brown;
-}
-/* #################################################### */
-/* End Title by Alfi */
 
 html {
   font-family: "Yesteryear", cursive;
@@ -47,7 +25,7 @@ html {
 }
 
 .main-logo {
-  background-image: url(/pngwing.com.png);
+  background-image: url(pngwing.com.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -135,14 +113,14 @@ a:hover {
 }
 
 .ingredients ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.tagesgericht_title{
-    /* width: 100%; */
-    min-height: 200px;
-    background-color: antiquewhite;
-    padding-top: 5%;
+.tagesgericht_title {
+  width: 100%;
+  min-height: 200px;
+  background-color: antiquewhite;
+  padding-top: 5%;
 }
 
 
@@ -160,11 +138,32 @@ a:hover {
   cursor: pointer;
 }
 
-.tagesmahlzeit_button {
+.container {
+  /* text-align: center;*/
+}
+
+.text_mitte {
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.pastry {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  height: 80px;
+  margin-top: 20px;
   cursor: pointer;
-  border: 2px solid brown;
-  min-height: 200px;
-  min-width: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-text {
+  padding-top: 30px;
 }
 
 .ingredients {
@@ -173,8 +172,5 @@ a:hover {
 }
 
 .steps {
-    min-height: 200px;
-    background-color: antiquewhite;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  min-height: 200px;
 }
