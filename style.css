@@ -6,10 +6,6 @@
 /* Start Titel by Alfi */
 /* ################################################## */
 
-hr {
-  border-width: 6px;
-}
-
 .icons_width {
   width: 30px;
   height: auto;
@@ -19,6 +15,64 @@ html {
   font-family: "Yesteryear", cursive;
 }
 
+/* ab hier Phil CSS */
+
+.row.header {
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: rgb(232, 176, 120);
+  height: 600px;
+}
+
+.main-logo {
+  background-image: url(pngwing.com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.col.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col.header h2 {
+  color: white;
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+  font-size: 7rem;
+  line-height: 6.5rem;
+}
+
+.row.header_type {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.row.header_type p {
+  color: rgb(112, 92, 73);
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.text_mitte {
+  border-radius: 20px;
+  background-color: rgb(232, 176, 120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.text_mitte h2 {
+  color: rgb(112, 92, 73);
+  font-family: "Yesteryear", cursive;
+}
+
+/* bis hier Phil CSS */
 h1,
 h2,
 h3,
@@ -40,6 +94,16 @@ a:hover {
 }
 
 .title {
+  min-height: 600px;
+  /* background-color: antiquewhite; */
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
+  background-color: antiquewhite;
+}
+
+.tagesgericht_title {
+  width: 100%;
   /* background-color: antiquewhite; */
   margin-left: auto;
   margin-right: auto;
@@ -58,15 +122,6 @@ a:hover {
   padding-top: 5%;
 }
 
-.container {
-  text-align: center;
-}
-
-.text_mitte {
-  text-align: center;
-  width: 100%;
-}
-
 .tagesmahlzeiten {
   background-color: antiquewhite;
 }
@@ -78,6 +133,34 @@ a:hover {
   height: 100px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
+
+.text_mitte {
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.pastry {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  height: 80px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-text {
+  padding-top: 30px;
 }
 
 .ingredients {
