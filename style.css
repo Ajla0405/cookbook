@@ -104,7 +104,6 @@ a:hover {
 
 .tagesgericht_title {
   width: 100%;
-  /* background-color: antiquewhite; */
   margin-left: auto;
   margin-right: auto;
   min-height: 200px;
@@ -113,17 +112,6 @@ a:hover {
 
 .ingredients ul {
   list-style-type: none;
-}
-
-.tagesgericht_title {
-  width: 100%;
-  min-height: 200px;
-  background-color: antiquewhite;
-  padding-top: 5%;
-}
-
-.tagesmahlzeiten {
-  background-color: antiquewhite;
 }
 
 .secret_recipe {
