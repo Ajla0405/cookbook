@@ -1,7 +1,37 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;    
 }
+
+
+.back_button {
+    position: absolute;
+}
+
+/* Start Titel by Alfi */
+/* ################################################## */
+
+
+hr {
+    border-width: 6px;
+}
+
+.icons_width {
+    width: 30px;
+    height: auto;
+}
+
+.col_icons {
+    margin-top: 4%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border: 2px solid brown;
+}
+/* #################################################### */
+/* End Title by Alfi */
 
 html {
   font-family: "Yesteryear", cursive;
@@ -73,6 +103,14 @@ html {
 }
 
 /* bis hier Phil CSS */
+h1, h2, h3, h4, h5 {
+    font-family: 'Yesteryear', cursive;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
 
 a {
   text-decoration: none;
@@ -83,12 +121,28 @@ a:hover {
 }
 
 .title {
-  height: 600px;
+  min-height: 600px;
   background-color: antiquewhite;
 }
 
 .tagesgericht_title {
   width: 100%;
+    /* background-color: antiquewhite; */
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.ingredients ul {
+    list-style-type: none;
+}
+
+.tagesgericht_title{
+    /* width: 100%; */
+    min-height: 200px;
+    background-color: antiquewhite;
+    padding-top: 5%;
 }
 
 
@@ -119,5 +173,8 @@ a:hover {
 }
 
 .steps {
-  min-height: 200px;
+    min-height: 200px;
+    background-color: antiquewhite;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
