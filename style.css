@@ -19,6 +19,7 @@ body {
 
 .title-dash {
   border-width: 6px;
+  border-width: 6px;
 }
 
 .titel_title {
@@ -31,6 +32,7 @@ body {
 }
 
 .title_text_center {
+  text-align: center;
   text-align: center;
 }
 
@@ -100,7 +102,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  width: 100%;
 }
 
 .container.text_mitte h2 {
@@ -117,6 +119,7 @@ html {
 }
 
 /* bis hier Phil CSS */
+
 h1,
 h2,
 h3,
@@ -126,6 +129,7 @@ h5 {
 }
 
 h4 {
+  margin-top: 10px;
   margin-top: 10px;
 }
 
@@ -141,6 +145,9 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
 }
 
 .ingredients ul {
@@ -151,20 +158,10 @@ a:hover {
   width: 100%;
   min-height: 200px;
   background-color: antiquewhite;
-  padding-top: 5%;
 }
 
-.tagesmahlzeiten {
-  background-color: antiquewhite;
-}
-
-.secret_recipe {
-  width: 70%;
-  margin: auto;
-  background-color: antiquewhite;
-  height: 100px;
-  margin-top: 20px;
-  cursor: pointer;
+.container {
+  text-align: center;
 }
 
 .text_mitte {
@@ -172,23 +169,36 @@ a:hover {
   width: 100%;
 }
 
+/* Ayla CSS*/
 .card-title {
   text-align: center;
+  font-family: "Yesteryear", cursive;
+  font-size: 25px;
+  padding-top: 10px;
+  background-color: rgba(255, 228, 196, 0.934);
+  text-decoration: none;
+  color: rgba(112, 92, 73, 0.625);
 }
 
+.card-body {
+  width: 100%;
+  padding: 0;
+}
 .pastry {
-  width: 70%;
   margin: auto;
-  background-color: white;
-  height: 80px;
-  margin-top: 20px;
+  height: 65px;
   cursor: pointer;
   text-align: center;
-  margin-bottom: 20px;
+  background-color: rgba(255, 228, 196, 0.933);
+  margin-bottom: 25px;
 }
 
-.col-text {
-  padding-top: 30px;
+.text-pastry {
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgba(112, 92, 73, 0.621);
+  font-family: "Yesteryear", cursive;
+  font-size: 25px;
 }
 
 .ingredients {
@@ -196,6 +206,7 @@ a:hover {
   background-color: antiquewhite;
 }
 
+/* Bis hier Aylas CSS */
 .steps {
   min-height: 200px;
 }
@@ -210,9 +221,15 @@ a:hover {
   width: 100%;
   max-height: 350px;
   border-radius: 4px;
+  width: 100%;
+  max-height: 350px;
+  border-radius: 4px;
 }
 
 .dish_img {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 5%;
@@ -222,5 +239,6 @@ a:hover {
 */
 
 .lunch_page {
+  text-align: center;
   text-align: center;
 }
