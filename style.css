@@ -12,12 +12,14 @@ body {
     ),
     linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
   background-size: 45px 45px;
+  background-attachment: fixed;
 }
 
 /* Start Titel by Alfi */
 /* ################################################## */
 
 .title-dash {
+  border-width: 6px;
   border-width: 6px;
 }
 
@@ -31,6 +33,7 @@ body {
 }
 
 .title_text_center {
+  text-align: center;
   text-align: center;
 }
 
@@ -48,8 +51,9 @@ html {
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
-  height: 600px;
+  background-color: rgb(246, 218, 184);
+  height: 500px;
+  padding: 30px;
 }
 
 .main-logo {
@@ -69,7 +73,7 @@ html {
   color: white;
   font-family: "Yesteryear", cursive;
   text-align: center;
-  font-size: 7rem;
+  font-size: 6.5rem;
   line-height: 6.5rem;
 }
 
@@ -89,18 +93,19 @@ html {
 }
 
 #userGreeting {
-  font-size: 3.7rem;
+  font-size: 3.3rem;
   line-height: 4rem;
   color: rgb(112, 92, 73);
 }
 
 .container.text_mitte {
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
+  background-color: rgb(246, 218, 184);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .container.text_mitte h2 {
@@ -117,6 +122,7 @@ html {
 }
 
 /* bis hier Phil CSS */
+
 h1,
 h2,
 h3,
@@ -126,6 +132,7 @@ h5 {
 }
 
 h4 {
+  margin-top: 10px;
   margin-top: 10px;
 }
 
@@ -141,6 +148,9 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
 }
 
 .ingredients ul {
@@ -151,20 +161,10 @@ a:hover {
   width: 100%;
   min-height: 200px;
   background-color: antiquewhite;
-  padding-top: 5%;
 }
 
-.tagesmahlzeiten {
-  background-color: antiquewhite;
-}
-
-.secret_recipe {
-  width: 70%;
-  margin: auto;
-  background-color: antiquewhite;
-  height: 100px;
-  margin-top: 20px;
-  cursor: pointer;
+.container {
+  text-align: center;
 }
 
 .text_mitte {
@@ -172,23 +172,38 @@ a:hover {
   width: 100%;
 }
 
+/* Ayla CSS*/
 .card-title {
+  border-radius: 10px 10px 0px 0px;
   text-align: center;
+  font-family: "Yesteryear", cursive;
+  font-size: 25px;
+  padding-top: 10px;
+  background-color: rgb(246, 218, 184);
+  text-decoration: none;
+  color: rgba(112, 92, 73);
+  margin-bottom: 0;
 }
 
+.card-body {
+  width: 100%;
+  padding: 0;
+}
 .pastry {
-  width: 70%;
   margin: auto;
-  background-color: white;
-  height: 80px;
-  margin-top: 20px;
+  height: 65px;
   cursor: pointer;
   text-align: center;
-  margin-bottom: 20px;
+  background-color: rgba(255, 228, 196, 0.933);
+  margin-bottom: 25px;
 }
 
-.col-text {
-  padding-top: 30px;
+.text-pastry {
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgba(112, 92, 73);
+  font-family: "Yesteryear", cursive;
+  font-size: 25px;
 }
 
 .ingredients {
@@ -196,6 +211,7 @@ a:hover {
   background-color: antiquewhite;
 }
 
+/* Bis hier Aylas CSS */
 .steps {
   min-height: 200px;
 }
@@ -210,9 +226,15 @@ a:hover {
   width: 100%;
   max-height: 350px;
   border-radius: 4px;
+  width: 100%;
+  max-height: 350px;
+  border-radius: 4px;
 }
 
 .dish_img {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 5%;
@@ -222,5 +244,6 @@ a:hover {
 */
 
 .lunch_page {
+  text-align: center;
   text-align: center;
 }
