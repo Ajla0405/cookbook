@@ -316,3 +316,10 @@ a:hover {
   position: relative;
   height: 100px;
 }
+
+
+@media screen and (min-width: 1600px) {
+  .back_button{
+    left: -120px;
+  }
+}
