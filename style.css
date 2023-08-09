@@ -19,6 +19,18 @@ html {
   font-family: "Yesteryear", cursive;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yesteryear", cursive;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
 a {
   text-decoration: none;
 }
@@ -31,7 +43,7 @@ a:hover {
   /* background-color: antiquewhite; */
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  min-height: 200px;
   background-color: antiquewhite;
 }
 
@@ -47,7 +59,7 @@ a:hover {
 }
 
 .container {
-  /* text-align: center;*/
+  text-align: center;
 }
 
 .text_mitte {
@@ -55,24 +67,17 @@ a:hover {
   width: 100%;
 }
 
-.card-title {
-  text-align: center;
+.tagesmahlzeiten {
+  background-color: antiquewhite;
 }
 
-.pastry {
+.secret_recipe {
   width: 70%;
   margin: auto;
-  background-color: white;
-  height: 80px;
+  background-color: antiquewhite;
+  height: 100px;
   margin-top: 20px;
   cursor: pointer;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.col-text {
-  padding-top: 30px;
-  font-style: ;
 }
 
 .ingredients {
