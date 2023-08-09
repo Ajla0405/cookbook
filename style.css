@@ -7,11 +7,12 @@ body {
   background: white;
   background-image: linear-gradient(
       90deg,
-      rgba(200, 0, 0, 0.5) 50%,
+      rgba(200, 0, 0, 0.3) 50%,
       transparent 0
     ),
-    linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+    linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
   background-size: 45px 45px;
+  background-attachment: fixed;
 }
 
 /* Start Titel by Alfi */
@@ -50,8 +51,9 @@ html {
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
-  height: 600px;
+  background-color: rgb(246, 218, 184);
+  height: 500px;
+  padding: 30px;
 }
 
 .main-logo {
@@ -71,7 +73,7 @@ html {
   color: white;
   font-family: "Yesteryear", cursive;
   text-align: center;
-  font-size: 7rem;
+  font-size: 6.5rem;
   line-height: 6.5rem;
 }
 
@@ -91,18 +93,19 @@ html {
 }
 
 #userGreeting {
-  font-size: 3.7rem;
+  font-size: 3.3rem;
   line-height: 4rem;
   color: rgb(112, 92, 73);
 }
 
 .container.text_mitte {
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
+  background-color: rgb(246, 218, 184);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .container.text_mitte h2 {
@@ -171,13 +174,15 @@ a:hover {
 
 /* Ayla CSS*/
 .card-title {
+  border-radius: 10px 10px 0px 0px;
   text-align: center;
   font-family: "Yesteryear", cursive;
   font-size: 25px;
   padding-top: 10px;
-  background-color: rgba(255, 228, 196, 0.934);
+  background-color: rgb(246, 218, 184);
   text-decoration: none;
-  color: rgba(112, 92, 73, 0.625);
+  color: rgba(112, 92, 73);
+  margin-bottom: 0;
 }
 
 .card-body {
@@ -196,7 +201,7 @@ a:hover {
 .text-pastry {
   padding-top: 20px;
   text-decoration: none;
-  color: rgba(112, 92, 73, 0.621);
+  color: rgba(112, 92, 73);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
 }
