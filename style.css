@@ -30,6 +30,7 @@ body {
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 6%;
+  background-color: antiquewhite;
 }
 
 .title_text_center {
@@ -40,10 +41,6 @@ body {
 .icons_width {
   width: 30px;
   height: auto;
-}
-
-html {
-  font-family: "Yesteryear", cursive;
 }
 
 /* ab hier Phil CSS */
@@ -131,11 +128,6 @@ h5 {
   font-family: "Yesteryear", cursive;
 }
 
-h4 {
-  margin-top: 10px;
-  margin-top: 10px;
-}
-
 a {
   text-decoration: none;
 }
@@ -207,8 +199,10 @@ a:hover {
 }
 
 .ingredients {
+  border-radius: 10px;
   min-height: 200px;
   background-color: antiquewhite;
+  margin-bottom: 50px;
 }
 
 /* Bis hier Aylas CSS */
@@ -246,4 +240,85 @@ a:hover {
 .lunch_page {
   text-align: center;
   text-align: center;
+}
+
+
+.zubereitung {
+  /* display: initial; */
+  background-color: antiquewhite !important;
+  background-image: none !important;
+  z-index: 1000;
+  position: relative;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.ingredients h4 {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid h4,li {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  height: 25px;
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.ingredients h3 {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.grid h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.last_ingredient {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+
+.back_button{
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	/* box-sizing: border-box; */
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: 1rem;
+	min-width: 100px;
+	text-transform: uppercase;
+	width: auto;
+	/* margin-right: auto; */
+  position: absolute;
+  left: 0;
+  /* text-align: center; */
+}
+
+.back_button:focus, .back_button:hover {
+  background: #BCBCBC;
+}
+
+.button_wrapper {
+  position: relative;
+  height: 100px;
+}
+
+
+@media screen and (min-width: 1600px) {
+  .back_button{
+    left: -120px;
+  }
 }
