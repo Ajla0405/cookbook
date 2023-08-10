@@ -7,12 +7,14 @@ body {
   background: white;
   background-image: linear-gradient(
       90deg,
-      rgba(200, 0, 0, 0.5) 50%,
+      rgba(200, 0, 0, 0.3) 50%,
       transparent 0
     ),
-    linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+    linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
   background-size: 45px 45px;
-  
+
+  background-attachment: fixed;
+
 }
 
 /* Start Titel by Alfi */
@@ -33,6 +35,7 @@ body {
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 6%;
+  background-color: antiquewhite;
 }
 
 .title_text_center {
@@ -45,17 +48,14 @@ body {
   height: auto;
 }
 
-html {
-  font-family: "Yesteryear", cursive;
-}
-
 /* ab hier Phil CSS */
 
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
-  height: 600px;
+  background-color: rgb(246, 218, 184);
+  height: 500px;
+  padding: 30px;
 }
 
 .main-logo {
@@ -75,7 +75,7 @@ html {
   color: white;
   font-family: "Yesteryear", cursive;
   text-align: center;
-  font-size: 7rem;
+  font-size: 6.5rem;
   line-height: 6.5rem;
 }
 
@@ -95,18 +95,19 @@ html {
 }
 
 #userGreeting {
-  font-size: 3.7rem;
+  font-size: 3.3rem;
   line-height: 4rem;
   color: rgb(112, 92, 73);
 }
 
 .container.text_mitte {
   border-radius: 20px;
-  background-color: rgb(232, 176, 120);
+  background-color: rgb(246, 218, 184);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .container.text_mitte h2 {
@@ -130,11 +131,6 @@ h3,
 h4,
 h5 {
   font-family: "Yesteryear", cursive;
-}
-
-h4 {
-  margin-top: 10px;
-  margin-top: 10px;
 }
 
 a {
@@ -175,13 +171,15 @@ a:hover {
 
 /* Ayla CSS*/
 .card-title {
+  border-radius: 10px 10px 0px 0px;
   text-align: center;
   font-family: "Yesteryear", cursive;
   font-size: 25px;
   padding-top: 10px;
-  background-color: rgba(255, 228, 196, 0.934);
+  background-color: rgb(246, 218, 184);
   text-decoration: none;
-  color: rgba(112, 92, 73, 0.625);
+  color: rgba(112, 92, 73);
+  margin-bottom: 0;
 }
 
 .card-body {
@@ -200,14 +198,16 @@ a:hover {
 .text-pastry {
   padding-top: 20px;
   text-decoration: none;
-  color: rgba(112, 92, 73, 0.621);
+  color: rgba(112, 92, 73);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
 }
 
 .ingredients {
+  border-radius: 10px;
   min-height: 200px;
   background-color: antiquewhite;
+  margin-bottom: 50px;
 }
 
 /* Bis hier Aylas CSS */
@@ -245,4 +245,86 @@ a:hover {
 .lunch_page {
   text-align: center;
   text-align: center;
+}
+
+
+.zubereitung {
+  /* display: initial; */
+  background-color: antiquewhite !important;
+  background-image: none !important;
+  z-index: 1000;
+  position: relative;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.ingredients h4 {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid h4,li {
+  border-top: 1px solid rgba(128, 128, 128, 0.486);
+  height: 25px;
+  border-left: 1px solid rgba(128, 128, 128, 0.486);
+  border-right: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+.ingredients h3 {
+  border-top: 1px solid rgba(128, 128, 128, 0.486);
+  border-left: 1px solid rgba(128, 128, 128, 0.486);
+  border-right: 1px solid rgba(128, 128, 128, 0.486);
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.grid h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.last_ingredient {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+  margin-bottom: 15px;
+}
+
+
+.back_button{
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	/* box-sizing: border-box; */
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: 1rem;
+	min-width: 100px;
+	text-transform: uppercase;
+	width: auto;
+	/* margin-right: auto; */
+  position: absolute;
+  left: 0;
+  /* text-align: center; */
+}
+
+.back_button:focus, .back_button:hover {
+  background: #BCBCBC;
+}
+
+.button_wrapper {
+  position: relative;
+  height: 100px;
+}
+
+
+@media screen and (min-width: 1600px) {
+  .back_button{
+    left: -120px;
+  }
 }
