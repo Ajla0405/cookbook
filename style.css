@@ -12,13 +12,7 @@ body {
     ),
     linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
   background-size: 45px 45px;
-<<<<<<< HEAD
-
   background-attachment: fixed;
-
-=======
-  background-attachment: fixed;
->>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
 }
 
 /* Start Titel by Alfi */
@@ -28,7 +22,6 @@ body {
   border-width: 6px;
   border-width: 6px;
 }
-
 
 .titel_title {
   background-color: rgba(255, 228, 196);  
@@ -137,11 +130,7 @@ h5 {
   font-family: "Yesteryear", cursive;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
+a:hover {  
   text-decoration: none;
 }
 
@@ -190,6 +179,7 @@ a:hover {
   width: 100%;
   padding: 0;
 }
+
 .pastry {
   margin: auto;
   height: 65px;
@@ -212,6 +202,12 @@ a:hover {
   min-height: 200px;
   background-color: antiquewhite;
   margin-bottom: 50px;
+}
+
+.card-img:hover {
+  transition: transform 1s;
+  transform: scale(1.05, 1.05);
+  border: 2px solid brown;
 }
 
 /* Bis hier Aylas CSS */
@@ -251,7 +247,6 @@ a:hover {
   text-align: center;
 }
 
-
 .zubereitung {
   /* display: initial; */
   background-color: antiquewhite !important;
@@ -271,18 +266,6 @@ a:hover {
 }
 
 .grid h4,li {
-<<<<<<< HEAD
-  border-top: 1px solid rgba(128, 128, 128, 0.486);
-  height: 25px;
-  border-left: 1px solid rgba(128, 128, 128, 0.486);
-  border-right: 1px solid rgba(128, 128, 128, 0.486);
-}
-
-.ingredients h3 {
-  border-top: 1px solid rgba(128, 128, 128, 0.486);
-  border-left: 1px solid rgba(128, 128, 128, 0.486);
-  border-right: 1px solid rgba(128, 128, 128, 0.486);
-=======
   border-top: 1px solid rgba(128, 128, 128, 0.3);
   height: 25px;
   border-left: 1px solid rgba(128, 128, 128, 0.3);
@@ -293,7 +276,6 @@ a:hover {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
   border-left: 1px solid rgba(128, 128, 128, 0.3);
   border-right: 1px solid rgba(128, 128, 128, 0.3);
->>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
   margin-bottom: 0;
   margin-top: 15px;
 }
@@ -304,12 +286,7 @@ a:hover {
 }
 
 .last_ingredient {
-<<<<<<< HEAD
-  border-bottom: 1px solid rgba(128, 128, 128, 0.486);
-  margin-bottom: 15px;
-=======
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
->>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
 }
 
 
