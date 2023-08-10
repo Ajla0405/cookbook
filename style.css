@@ -36,7 +36,6 @@ body {
 
 .title_text_center {
   text-align: center;
-  text-align: center;
 }
 
 .icons_width {
@@ -137,9 +136,6 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   min-height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 200px;
 }
 
 .ingredients ul {
@@ -159,6 +155,7 @@ a:hover {
 .lunch_container {
   background-color: antiquewhite;
   border-radius: 20px;
+  padding-bottom: 15px;
 }
 
 .text_mitte {
@@ -245,9 +242,6 @@ a:hover {
   width: 100%;
   max-height: 350px;
   border-radius: 4px;
-  width: 100%;
-  max-height: 350px;
-  border-radius: 4px;
 }
 
 .dish_img {
@@ -261,7 +255,6 @@ a:hover {
 
 .lunch_page {
   text-align: center;
-  text-align: center;
 }
 
 .zubereitung {
@@ -270,7 +263,11 @@ a:hover {
   /* position: relative; */
   border-radius: 10px;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
+  background-color: rgb(246, 218, 184);
+  margin-left: 0px;
+  margin-right: 0px;
+  /* margin-bottom: 15px; */
 }
 
 .ingredients h4 {
@@ -312,7 +309,6 @@ a:hover {
 	border-left: 6px inset rgba(0,0,0,.5);
 	border-right: 6px inset rgba(255,255,255,.5);
 	border-top: 6px inset rgba(255,255,255,.5);
-	/* box-sizing: border-box; */
 	color: white;
 	cursor: pointer;
 	display: inline-block;
@@ -321,10 +317,8 @@ a:hover {
 	min-width: 100px;
 	text-transform: uppercase;
 	width: auto;
-	/* margin-right: auto; */
   position: absolute;
   left: 0;
-  /* text-align: center; */
 }
 
 .back_button:focus, .back_button:hover {
