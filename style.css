@@ -1,3 +1,6 @@
+
+/* globals */
+
 * {
   padding: 0;
   margin: 0;
@@ -15,112 +18,16 @@ body {
   background-attachment: fixed;
 }
 
-/* Start Titel by Alfi */
-/* ################################################## */
 
-.title-dash {
-  border-width: 6px;
-  border-width: 6px;
-}
-
-.titel_title {   
-  color: rgb(112, 92, 73);
-  border-radius: 15px;
+.title {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  min-height: auto;
-  padding-top: 5%;
-  margin-bottom: 6%;
-  background-color: rgb(246, 218, 184);
+  min-height: 200px;
 }
 
-.title_text_center {
-  text-align: center;
-  text-align: center;
-}
 
-.icons_width {
-  width: 30px;
-  height: auto;
-}
 
-/* ab hier Phil CSS */
 
-.row.header {
-  margin: 50px 0;
-  border-radius: 20px;
-  background-color: rgb(246, 218, 184);
-  height: 500px;
-  padding: 30px;
-}
-
-.main-logo {
-  background-image: url(pngwing.com.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.col.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col.header h2 {
-  color: white;
-  font-family: "Yesteryear", cursive;
-  text-align: center;
-  font-size: 6.5rem;
-  line-height: 6.5rem;
-}
-
-.row.header_type {
-  max-width: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.row.header_type p {
-  color: rgb(112, 92, 73);
-  font-size: 1.4rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#userGreeting {
-  font-size: 3.3rem;
-  line-height: 4rem;
-  color: rgb(112, 92, 73);
-}
-
-.container.text_mitte {
-  border-radius: 20px;
-  background-color: rgb(246, 218, 184);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.container.text_mitte h2 {
-  color: rgb(112, 92, 73);
-  font-family: "Yesteryear", cursive;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 3rem;
-  line-height: 6.5rem;
-}
-
-#special-word {
-  color: white;
-}
-
-/* bis hier Phil CSS */
 
 h1,
 h2,
@@ -134,40 +41,37 @@ a:hover {
   text-decoration: none;
 }
 
-.title {
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 200px;
-}
-
-.ingredients ul {
-  list-style-type: none;
-}
-
-.tagesgericht_title {
-  width: 100%;
-  min-height: 200px;
-  background-color: rgb(246, 218, 184);
-}
 
 .container {
   text-align: center;
 }
 
-.lunch_container {
-  background-color: antiquewhite;
-  border-radius: 20px;
+
+
+
+
+
+
+
+
+/* main-page */
+
+.main-logo {
+  background-image: url(src/assets/pngwing.com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.text_mitte {
-  text-align: center;
-  width: 100%;
+
+
+#userGreeting {
+  font-size: 3.3rem;
+  line-height: 4rem;
+  color: rgb(112, 92, 73);
 }
 
-/* Ayla CSS*/
+
 .card-title {
   border-radius: 10px 10px 0px 0px;
   text-align: center;
@@ -206,7 +110,7 @@ a:hover {
   border-radius: 10px;
   min-height: 200px;
   background-color: rgb(246, 218, 184);
-  margin-bottom: 50px;
+  margin-left: 15px;
 }
 
 .effe:hover {
@@ -225,27 +129,140 @@ a:hover {
 
 .card-body:hover {
   transition: transform .5s;
-  transform: scale(1.05, 1.05);
-  /* border: 2px solid rgb(92, 221, 244); */
+  transform: scale(1.03, 1.03);
   box-shadow: 4px 3px 11px 6px rgba(0, 0, 0, 0.35);
-  /* transform: translateY(-1px); */
 }
 
-/* Bis hier Aylas CSS */
+
+.container.text_mitte {
+  border-radius: 20px;
+  background-color: rgb(246, 218, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.container.text_mitte h2 {
+  color: rgb(112, 92, 73);
+  font-family: "Yesteryear", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  line-height: 6.5rem;
+}
+
+/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
+.row.header {
+  margin: 50px 0;
+  border-radius: 20px;
+  background-color: rgb(246, 218, 184);
+  height: 500px;
+  padding: 30px;
+}
+
+
+/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
+.col.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
+.col.header h2 {
+  color: white;
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+}
+
+.row.header_type {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row.header_type p {
+  color: rgb(112, 92, 73);
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#special-word {
+  color: white;
+}
+
+
+
+
+
+
+/* tagesmahlzeiten */
+
+
+
+.titel_title {   
+  color: rgb(112, 92, 73);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: auto;
+  padding-top: 5%;
+  margin-bottom: 6%;
+  background-color: rgb(246, 218, 184);
+}
+
+.title-dash {
+  border-width: 6px;
+}
+
+.title_text_center {
+  text-align: center;
+}
+
+.icons_width {
+  width: 30px;
+  height: auto;
+}
+
+
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.tagesgericht_title {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(246, 218, 184);
+}
+
+
+
+.lunch_container {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.text_mitte {
+  text-align: center;
+  width: 100%;
+}
+
 .steps {
   min-height: 200px;
 }
 
-/* 
-    Class for slideshow
-    Please handle whith care
-    by Alfi
-    ###########################################
-*/
 .slides {
-  width: 100%;
-  max-height: 350px;
-  border-radius: 4px;
   width: 100%;
   max-height: 350px;
   border-radius: 4px;
@@ -256,12 +273,8 @@ a:hover {
   margin-bottom: auto;
   margin-left: auto;
 }
-/* 
-##################################################
-*/
 
 .lunch_page {
-  text-align: center;
   text-align: center;
 }
 
@@ -271,6 +284,11 @@ a:hover {
   /* position: relative; */
   border-radius: 10px;
   padding: 15px;
+  margin-top: 30px;
+  background-color: rgb(246, 218, 184);
+  margin-left: 0px;
+  margin-right: 0px;
+  /* margin-bottom: 15px; */
 }
 
 .ingredients h4 {
@@ -333,6 +351,17 @@ a:hover {
   position: relative;
   height: 50px;
 }
+
+
+
+
+
+/* media-queries */
+
+
+
+
+
 
 
 @media screen and (min-width: 1600px) {
