@@ -12,9 +12,13 @@ body {
     ),
     linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
   background-size: 45px 45px;
+<<<<<<< HEAD
 
   background-attachment: fixed;
 
+=======
+  background-attachment: fixed;
+>>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
 }
 
 /* Start Titel by Alfi */
@@ -267,6 +271,7 @@ a:hover {
 }
 
 .grid h4,li {
+<<<<<<< HEAD
   border-top: 1px solid rgba(128, 128, 128, 0.486);
   height: 25px;
   border-left: 1px solid rgba(128, 128, 128, 0.486);
@@ -277,6 +282,18 @@ a:hover {
   border-top: 1px solid rgba(128, 128, 128, 0.486);
   border-left: 1px solid rgba(128, 128, 128, 0.486);
   border-right: 1px solid rgba(128, 128, 128, 0.486);
+=======
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  height: 25px;
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.ingredients h3 {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+>>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
   margin-bottom: 0;
   margin-top: 15px;
 }
@@ -287,8 +304,12 @@ a:hover {
 }
 
 .last_ingredient {
+<<<<<<< HEAD
   border-bottom: 1px solid rgba(128, 128, 128, 0.486);
   margin-bottom: 15px;
+=======
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+>>>>>>> d9c427ea0178d073ec65e84d026d289d3c8699c1
 }
 
 
