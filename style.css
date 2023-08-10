@@ -24,6 +24,7 @@ body {
 }
 
 .titel_title {   
+  color: rgb(112, 92, 73);
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -311,7 +312,6 @@ a:hover {
 	border-left: 6px inset rgba(0,0,0,.5);
 	border-right: 6px inset rgba(255,255,255,.5);
 	border-top: 6px inset rgba(255,255,255,.5);
-	/* box-sizing: border-box; */
 	color: white;
 	cursor: pointer;
 	display: inline-block;
@@ -320,10 +320,8 @@ a:hover {
 	min-width: 100px;
 	text-transform: uppercase;
 	width: auto;
-	/* margin-right: auto; */
   position: absolute;
   left: 0;
-  /* text-align: center; */
 }
 
 .back_button:focus, .back_button:hover {
