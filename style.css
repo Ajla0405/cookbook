@@ -23,16 +23,15 @@ body {
   border-width: 6px;
 }
 
-.titel_title {
-  background-color: rgba(255, 228, 196);  
+.titel_title {   
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 6%;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
 }
 
 .title_text_center {
@@ -150,7 +149,7 @@ a:hover {
 .tagesgericht_title {
   width: 100%;
   min-height: 200px;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
 }
 
 .container {
@@ -185,7 +184,7 @@ a:hover {
   height: 65px;
   cursor: pointer;
   text-align: center;
-  background-color: rgba(255, 228, 196, 0.933);
+  background-color: rgb(246, 218, 184);
   margin-bottom: 25px;
 }
 
@@ -200,14 +199,30 @@ a:hover {
 .ingredients {
   border-radius: 10px;
   min-height: 200px;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
   margin-bottom: 50px;
 }
 
-.card-img:hover {
-  transition: transform 1s;
+.effe:hover {
+  transition: transform .5s;
   transform: scale(1.05, 1.05);
-  border: 2px solid brown;
+}
+
+.effe2:hover {
+  transition: transform .5s;
+  transform: scale(1.01, 1.01);
+}
+
+.card-body {
+  box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.32);
+}
+
+.card-body:hover {
+  transition: transform .5s;
+  transform: scale(1.05, 1.05);
+  /* border: 2px solid rgb(92, 221, 244); */
+  box-shadow: 4px 3px 11px 6px rgba(0, 0, 0, 0.35);
+  /* transform: translateY(-1px); */
 }
 
 /* Bis hier Aylas CSS */
@@ -249,7 +264,7 @@ a:hover {
 
 .zubereitung {
   /* display: initial; */
-  background-color: antiquewhite !important;
+  background-color: rgb(246, 218, 184)!important;
   background-image: none !important;
   z-index: 1000;
   position: relative;
