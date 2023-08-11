@@ -12,4 +12,11 @@ function sayHello() {
   document.getElementById("special-word").innerHTML = userName + "!";
 }
 
-sayHello();
+// sayHello();
+
+
+
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  element.classList.add("mystyle");
+} 
