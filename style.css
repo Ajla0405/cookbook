@@ -93,6 +93,9 @@ a:hover {
   min-height: 200px;
   background-color: rgb(246, 218, 184);
   margin-left: 15px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .effe:hover {
@@ -269,10 +272,16 @@ a:hover {
   border-radius: 4px;
 }
 
-.dish_img {
+.dish_img_wrapper{
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.dish_img {
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: auto;
+  min-width: 300px;
 }
 
 .lunch_page {
