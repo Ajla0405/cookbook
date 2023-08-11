@@ -30,6 +30,9 @@ function set_to_greeting() {
 } 
 
 
+//todo: check if name is set
+
+
 var element = document.getElementById("userGreeting");
 element.classList.add("begone");
 

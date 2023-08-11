@@ -52,6 +52,8 @@ body {
     linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0); */
     background-image: url("src/assets/1b16f88681f431725040197d0d689eed.jpeg");
   /* background-size: 45px 45px; */
+  color: black;
+  /* font-size: 1.0rem; */
 
   
   /* background-attachment: fixed; */  /* davon wird einem Schwindelig */
