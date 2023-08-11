@@ -24,13 +24,14 @@ body {
 }
 
 .titel_title {
+  border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 6%;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
 }
 
 .title_text_center {
@@ -128,10 +129,6 @@ h5 {
   font-family: "Yesteryear", cursive;
 }
 
-a {
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -152,11 +149,16 @@ a:hover {
 .tagesgericht_title {
   width: 100%;
   min-height: 200px;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
 }
 
 .container {
   text-align: center;
+}
+
+.lunch_container {
+  background-color: antiquewhite;
+  border-radius: 20px;
 }
 
 .text_mitte {
@@ -181,12 +183,13 @@ a:hover {
   width: 100%;
   padding: 0;
 }
+
 .pastry {
   margin: auto;
   height: 65px;
   cursor: pointer;
   text-align: center;
-  background-color: rgba(255, 228, 196, 0.933);
+  background-color: rgb(246, 218, 184);
   margin-bottom: 25px;
 }
 
@@ -201,8 +204,30 @@ a:hover {
 .ingredients {
   border-radius: 10px;
   min-height: 200px;
-  background-color: antiquewhite;
+  background-color: rgb(246, 218, 184);
   margin-bottom: 50px;
+}
+
+.effe:hover {
+  transition: transform 0.5s;
+  transform: scale(1.05, 1.05);
+}
+
+.effe2:hover {
+  transition: transform 0.5s;
+  transform: scale(1.01, 1.01);
+}
+
+.card-body {
+  box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.32);
+}
+
+.card-body:hover {
+  transition: transform 0.5s;
+  transform: scale(1.05, 1.05);
+  /* border: 2px solid rgb(92, 221, 244); */
+  box-shadow: 4px 3px 11px 6px rgba(0, 0, 0, 0.35);
+  /* transform: translateY(-1px); */
 }
 
 /* Bis hier Aylas CSS */
@@ -242,13 +267,10 @@ a:hover {
   text-align: center;
 }
 
-
 .zubereitung {
   /* display: initial; */
-  background-color: antiquewhite !important;
-  background-image: none !important;
-  z-index: 1000;
-  position: relative;
+  background-color: antiquewhite;
+  /* position: relative; */
   border-radius: 10px;
   padding: 15px;
 }
@@ -261,7 +283,8 @@ a:hover {
   display: grid;
 }
 
-.grid h4,li {
+.grid h4,
+li {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
   height: 25px;
   border-left: 1px solid rgba(128, 128, 128, 0.3);
@@ -285,40 +308,40 @@ a:hover {
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-
-.back_button{
-  background: #7C7C7C;
-	border-bottom: 6px inset rgba(0,0,0,.5);
-	border-left: 6px inset rgba(0,0,0,.5);
-	border-right: 6px inset rgba(255,255,255,.5);
-	border-top: 6px inset rgba(255,255,255,.5);
-	/* box-sizing: border-box; */
-	color: white;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 1.5rem;
-	margin: 1rem;
-	min-width: 100px;
-	text-transform: uppercase;
-	width: auto;
-	/* margin-right: auto; */
+.back_button {
+  background: #7c7c7c;
+  border-bottom: 6px inset rgba(0, 0, 0, 0.5);
+  border-left: 6px inset rgba(0, 0, 0, 0.5);
+  border-right: 6px inset rgba(255, 255, 255, 0.5);
+  border-top: 6px inset rgba(255, 255, 255, 0.5);
+  /* box-sizing: border-box; */
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 1rem;
+  min-width: 100px;
+  text-transform: uppercase;
+  width: auto;
+  /* margin-right: auto; */
   position: absolute;
   left: 0;
   /* text-align: center; */
 }
 
-.back_button:focus, .back_button:hover {
-  background: #BCBCBC;
+.back_button:focus,
+.back_button:hover {
+  background: #bcbcbc;
+  color: black;
 }
 
 .button_wrapper {
   position: relative;
-  height: 100px;
+  height: 50px;
 }
 
-
 @media screen and (min-width: 1600px) {
-  .back_button{
+  .back_button {
     left: -120px;
   }
 }
