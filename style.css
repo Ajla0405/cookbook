@@ -134,7 +134,6 @@ a:hover {
   line-height: 6.5rem;
 }
 
-/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
@@ -143,14 +142,12 @@ a:hover {
   padding: 30px;
 }
 
-/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
 .col.header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* das hier eigentlich zu unspezifisch und könnte woanders was zerschießen */
 .col.header h2 {
   color: white;
   font-family: "Yesteryear", cursive;
@@ -247,16 +244,13 @@ a:hover {
 }
 
 .zubereitung {
-  /* display: initial; */
   background-color: antiquewhite;
-  /* position: relative; */
   border-radius: 10px;
   padding: 15px;
   margin-top: 30px;
   background-color: rgb(246, 218, 184);
   margin-left: 0px;
   margin-right: 0px;
-  /* margin-bottom: 15px; */
 }
 
 .ingredients h4 {
