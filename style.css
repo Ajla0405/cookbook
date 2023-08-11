@@ -247,16 +247,13 @@ a:hover {
 }
 
 .zubereitung {
-  /* display: initial; */
   background-color: antiquewhite;
-  /* position: relative; */
   border-radius: 10px;
   padding: 15px;
   margin-top: 30px;
   background-color: rgb(246, 218, 184);
   margin-left: 0px;
   margin-right: 0px;
-  /* margin-bottom: 15px; */
 }
 
 .ingredients h4 {
