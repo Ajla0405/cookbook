@@ -114,7 +114,10 @@ a:hover {
   text-align: center;
   background-color: var(--background1);
   margin-bottom: 45px;
-  margin-top: 30px
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 15px;
 }
 
 .text-pastry {
@@ -178,7 +181,7 @@ a:hover {
 }
 
 .container.text_mitte {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: var(--background1);
   display: flex;
   justify-content: center;
