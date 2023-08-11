@@ -1,7 +1,7 @@
 /* variables */
 
 :root {
-  --background1: rgb(255, 231, 204);
+  --background1: rgb(248, 226, 206);
   --brown-text: rgba(112, 92, 73);
 }
 
@@ -377,7 +377,7 @@ a:hover {
 
 .footer_container {
   height: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 40%;
 }
 
 
