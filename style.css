@@ -132,18 +132,19 @@ a:hover {
   cursor: pointer;
   text-align: center;
   background-color: var(--background1);
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 
 .text-pastry {
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
-  color: white;
+  /* color: white; */
+  color: var(--brown-text);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
 }
@@ -307,6 +308,13 @@ a:hover {
   padding-right: 30px;
 }
 
+.navbar2 a {  
+  color: black;
+  text-align: center;
+  /* padding: 14px; */
+  text-decoration: none;
+}  
+
 .navrow {
   height: 90%;
   width: 100%;
@@ -407,6 +415,7 @@ a:hover {
 
 .footer_container {
   height: 100px;
+  margin-top: 30px;
   margin-bottom: 40%;
 }
 

@@ -24,7 +24,7 @@ function set_to_greeting() {
   element.classList.add("begone");
   element = document.getElementById("userGreeting");
   element.classList.remove("begone");
-  element = document.getElementById("masterpises");
+  element = document.getElementById("pastries");
   element.classList.remove("begone");
   document.getElementById("special-word").innerHTML = name + "!";
 } 
