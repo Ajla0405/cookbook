@@ -1,7 +1,7 @@
 /* variables */
 
 :root {
-  --background1: rgb(243, 225, 205);
+  --background1: rgb(255, 231, 204);
   --brown-text: rgba(112, 92, 73);
 }
 
@@ -358,6 +358,15 @@ a:hover {
 
 .diashow_img {
   width: 100%;
+  border-radius: 15px;
+}
+
+.carousel-control.left {
+  border-radius: 15px 0 0 15px;
+}
+
+.carousel-control.right {
+  border-radius: 0 15px 15px 0;
 }
 
 
