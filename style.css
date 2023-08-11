@@ -1,3 +1,5 @@
+/* globals */
+
 * {
   padding: 0;
   margin: 0;
@@ -15,111 +17,11 @@ body {
   background-attachment: fixed;
 }
 
-/* Start Titel by Alfi */
-/* ################################################## */
-
-.title-dash {
-  border-width: 6px;
-  border-width: 6px;
-}
-
-.titel_title {   
-  border-radius: 15px;
+.title {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  min-height: auto;
-  padding-top: 5%;
-  margin-bottom: 6%;
-  background-color: rgb(246, 218, 184);
+  min-height: 200px;
 }
-
-.title_text_center {
-  text-align: center;
-  text-align: center;
-}
-
-.icons_width {
-  width: 30px;
-  height: auto;
-}
-
-/* ab hier Phil CSS */
-
-.row.header {
-  margin: 50px 0;
-  border-radius: 20px;
-  background-color: rgb(246, 218, 184);
-  height: 500px;
-  padding: 30px;
-}
-
-.main-logo {
-  background-image: url(pngwing.com.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.col.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col.header h2 {
-  color: white;
-  font-family: "Yesteryear", cursive;
-  text-align: center;
-  font-size: 6.5rem;
-  line-height: 6.5rem;
-}
-
-.row.header_type {
-  max-width: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.row.header_type p {
-  color: rgb(112, 92, 73);
-  font-size: 1.4rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#userGreeting {
-  font-size: 3.3rem;
-  line-height: 4rem;
-  color: rgb(112, 92, 73);
-}
-
-.container.text_mitte {
-  border-radius: 20px;
-  background-color: rgb(246, 218, 184);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.container.text_mitte h2 {
-  color: rgb(112, 92, 73);
-  font-family: "Yesteryear", cursive;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 3rem;
-  line-height: 6.5rem;
-}
-
-#special-word {
-  color: white;
-}
-
-/* bis hier Phil CSS */
 
 h1,
 h2,
@@ -129,44 +31,29 @@ h5 {
   font-family: "Yesteryear", cursive;
 }
 
-a:hover {  
+a:hover {
   text-decoration: none;
-}
-
-.title {
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 200px;
-}
-
-.ingredients ul {
-  list-style-type: none;
-}
-
-.tagesgericht_title {
-  width: 100%;
-  min-height: 200px;
-  background-color: rgb(246, 218, 184);
 }
 
 .container {
   text-align: center;
 }
 
-.lunch_container {
-  background-color: antiquewhite;
-  border-radius: 20px;
+/* main-page */
+
+.main-logo {
+  background-image: url(src/assets/pngwing.com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.text_mitte {
-  text-align: center;
-  width: 100%;
+#userGreeting {
+  font-size: 3.3rem;
+  line-height: 4rem;
+  color: rgb(112, 92, 73);
 }
 
-/* Ayla CSS*/
 .card-title {
   border-radius: 10px 10px 0px 0px;
   text-align: center;
@@ -205,16 +92,17 @@ a:hover {
   border-radius: 10px;
   min-height: 200px;
   background-color: rgb(246, 218, 184);
-  margin-bottom: 50px;
+  margin-left: 15px;
 }
 
 .effe:hover {
-  transition: transform .5s;
+  transition: transform 0.8s;
   transform: scale(1.05, 1.05);
+  font-size: 1.1em;
 }
 
 .effe2:hover {
-  transition: transform .5s;
+  transition: transform 0.5s;
   transform: scale(1.01, 1.01);
 }
 
@@ -223,28 +111,159 @@ a:hover {
 }
 
 .card-body:hover {
-  transition: transform .5s;
-  transform: scale(1.05, 1.05);
-  /* border: 2px solid rgb(92, 221, 244); */
+  transition: transform 0.5s;
+  transform: scale(1.03, 1.03);
   box-shadow: 4px 3px 11px 6px rgba(0, 0, 0, 0.35);
-  /* transform: translateY(-1px); */
 }
 
-/* Bis hier Aylas CSS */
+.container.text_mitte {
+  border-radius: 20px;
+  background-color: rgb(246, 218, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.container.text_mitte h2 {
+  color: rgb(112, 92, 73);
+  font-family: "Yesteryear", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  line-height: 6.5rem;
+}
+
+.row.header {
+  margin: 50px 0;
+  border-radius: 20px;
+  background-color: rgb(246, 218, 184);
+  height: 500px;
+  padding: 30px;
+}
+
+.col.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col.header h2 {
+  color: white;
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+}
+
+.row.header_type {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row.header_type p {
+  color: rgb(112, 92, 73);
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#special-word {
+  color: white;
+}
+
+/* 
+######## Navbar###############
+##############################
+  */
+
+#navbar a {  
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}  
+
+.a_center {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+}
+ 
+.bt {  
+  font-family: "Yesteryear", cursive;
+  font-size: 1.3em;
+  color: rgba(112, 92, 73);
+  box-shadow: 4px 4px 4px   rgba(112, 92, 73);
+  border-radius: 8px;
+  width: 180px;
+  height: 80px;  
+  background-color: rgb(246, 218, 184);
+  margin: 5px;
+}
+
+.sticky {  
+  position: fixed;  
+}
+
+/* tagesmahlzeiten */
+
+.titel_title {
+  margin-top: 5%;
+  color: rgb(112, 92, 73);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: auto;
+  padding-top: 5%;
+  margin-bottom: 6%;
+  background-color: rgb(246, 218, 184);
+}
+
+.title-dash {
+  border-width: 6px;
+}
+
+.title_text_center {
+  text-align: center;
+}
+
+.icons_width {
+  width: 30px;
+  height: auto;
+}
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.tagesgericht_title {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(246, 218, 184);
+}
+
+.lunch_container {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.text_mitte {
+  text-align: center;
+  width: 100%;
+}
+
 .steps {
   min-height: 200px;
 }
 
-/* 
-    Class for slideshow
-    Please handle whith care
-    by Alfi
-    ###########################################
-*/
 .slides {
-  width: 100%;
-  max-height: 350px;
-  border-radius: 4px;
   width: 100%;
   max-height: 350px;
   border-radius: 4px;
@@ -253,26 +272,21 @@ a:hover {
 .dish_img {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 5%;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 5%;
+  margin-left: auto;
 }
-/* 
-##################################################
-*/
 
 .lunch_page {
-  text-align: center;
   text-align: center;
 }
 
 .zubereitung {
-  /* display: initial; */
   background-color: antiquewhite;
-  /* position: relative; */
   border-radius: 10px;
   padding: 15px;
+  margin-top: 30px;
+  background-color: rgb(246, 218, 184);
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .ingredients h4 {
@@ -283,7 +297,8 @@ a:hover {
   display: grid;
 }
 
-.grid h4,li {
+.grid h4,
+li {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
   height: 25px;
   border-left: 1px solid rgba(128, 128, 128, 0.3);
@@ -307,41 +322,16 @@ a:hover {
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-
-.back_button{
-  background: #7C7C7C;
-	border-bottom: 6px inset rgba(0,0,0,.5);
-	border-left: 6px inset rgba(0,0,0,.5);
-	border-right: 6px inset rgba(255,255,255,.5);
-	border-top: 6px inset rgba(255,255,255,.5);
-	/* box-sizing: border-box; */
-	color: white;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 1.5rem;
-	margin: 1rem;
-	min-width: 100px;
-	text-transform: uppercase;
-	width: auto;
-	/* margin-right: auto; */
-  position: absolute;
-  left: 0;
-  /* text-align: center; */
-}
-
-.back_button:focus, .back_button:hover {
-  background: #BCBCBC;
-  color: black;
-}
-
 .button_wrapper {
   position: relative;
   height: 50px;
 }
 
 
+/* media-queries */
+
 @media screen and (min-width: 1600px) {
-  .back_button{
+  .back_button {
     left: -120px;
   }
 }
