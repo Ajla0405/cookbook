@@ -16,7 +16,24 @@ function sayHello() {
 
 
 
-function myFunction() {
-  var element = document.getElementById("myDIV");
-  element.classList.add("mystyle");
+function set_to_greeting() {
+  // var element = document.getElementById("userGreeting");
+  // element.classList.add("mystyle");
+  const name = document.getElementById("fname").value;
+  var element = document.getElementById("name_form");
+  element.classList.add("begone");
+  element = document.getElementById("userGreeting");
+  element.classList.remove("begone");
+  document.getElementById("special-word").innerHTML = name + "!";
 } 
+
+
+var element = document.getElementById("userGreeting");
+element.classList.add("begone");
+
+let loginForm = document.getElementById("loginForm");
+name_form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+  set_to_greeting();
+});

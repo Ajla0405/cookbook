@@ -28,6 +28,11 @@
 
 /* globals */
 
+
+.begone {
+  display: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -89,6 +94,16 @@ a:hover {
   font-size: 3.3rem;
   line-height: 4rem;
   color: var(--brown-text);
+  height: 50px;
+}
+
+#name_form {
+  height: 50px;
+  font-size: 3.3rem;
+  line-height: 4rem;
+  color: var(--brown-text);
+  display: flex;
+  
 }
 
 .card-title {
