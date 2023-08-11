@@ -1,3 +1,30 @@
+/* variables */
+
+:root {
+  --background1: rgb(243, 225, 205);
+  --brown-text: rgba(112, 92, 73);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* globals */
 
 * {
@@ -54,7 +81,7 @@ a:hover {
 #userGreeting {
   font-size: 3.3rem;
   line-height: 4rem;
-  color: rgb(112, 92, 73);
+  color: var(--brown-text);
 }
 
 .card-title {
@@ -63,9 +90,9 @@ a:hover {
   font-family: "Yesteryear", cursive;
   font-size: 25px;
   padding-top: 10px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   text-decoration: none;
-  color: rgba(112, 92, 73);
+  color: var(--brown-text);
   margin-bottom: 0;
 }
 
@@ -79,14 +106,14 @@ a:hover {
   height: 65px;
   cursor: pointer;
   text-align: center;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   margin-bottom: 25px;
 }
 
 .text-pastry {
   padding-top: 20px;
   text-decoration: none;
-  color: rgba(112, 92, 73);
+  color: var(--brown-text);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
 }
@@ -99,7 +126,7 @@ a:hover {
 
 .ingredients {
   border-radius: 10px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   min-width: 400px;
   margin-left: 15px;
 }
@@ -144,7 +171,7 @@ a:hover {
 
 .container.text_mitte {
   border-radius: 20px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +191,7 @@ a:hover {
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   height: 500px;
   padding: 30px;
 }
@@ -173,6 +200,10 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.col.header .gramabook {
+  text-shadow: -3px 6px var(--brown-text);
 }
 
 .col.header h2 {
@@ -223,12 +254,12 @@ a:hover {
 .bt {  
   font-family: "Yesteryear", cursive;
   font-size: 1.3em;
-  color: rgba(112, 92, 73);
-  box-shadow: 4px 4px 4px   rgba(112, 92, 73);
+  color: var(--brown-text);
+  box-shadow: 4px 4px 4px   var(--brown-text);
   border-radius: 8px;
   width: 180px;
   height: 80px;  
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   margin: 5px;
 }
 
@@ -253,7 +284,7 @@ a:hover {
 
 .nav-button {
   height: 100%;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   border-radius: 15px;
   width: 100px;
   margin-right: 1px;
@@ -282,7 +313,7 @@ a:hover {
   min-height: auto;
   padding-top: 5%;
   margin-bottom: 30px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
 }
 
 .title-dash {
@@ -301,7 +332,7 @@ a:hover {
 .tagesgericht_title {
   width: 100%;
   min-height: 200px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
 }
 
 .text_mitte {
@@ -343,7 +374,7 @@ a:hover {
 
 .footer_row {
   height: 100%;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   border-radius: 15px;
 }
 
@@ -370,7 +401,7 @@ a:hover {
   border-radius: 10px;
   padding: 15px;
   margin-top: 30px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   margin-left: 0px;
   margin-right: 0px;
 }
