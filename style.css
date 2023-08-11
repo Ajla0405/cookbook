@@ -2,6 +2,7 @@
 
 :root {
   --background1: rgb(248, 226, 206);
+  --unclickable_background: rgb(243, 194, 148);
   --brown-text: rgba(112, 92, 73);
 }
 
@@ -78,6 +79,12 @@ a:hover {
   background-size: 100%;
 }
 
+
+.unclickable{
+  background-color: var(--unclickable_background) !important;
+  border-radius: inherit;
+}
+
 #userGreeting {
   font-size: 3.3rem;
   line-height: 4rem;
@@ -102,18 +109,19 @@ a:hover {
 }
 
 .pastry {
-  margin: auto;
   height: 65px;
   cursor: pointer;
   text-align: center;
   background-color: var(--background1);
-  margin-bottom: 25px;
+  margin-bottom: 45px;
+  margin-top: 30px
 }
 
 .text-pastry {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
-  color: var(--brown-text);
+  color: white;
   font-family: "Yesteryear", cursive;
   font-size: 25px;
 }
@@ -383,7 +391,7 @@ a:hover {
 
 .footer_row {
   height: 100%;
-  background-color: var(--background1);
+  background-color: var(--unclickable_background);
   border-radius: 15px;
 }
 
