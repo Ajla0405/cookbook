@@ -1,8 +1,8 @@
 /* variables */
 
 :root {
-  --background1: rgb(250, 226, 196);
-  --unclickable_background: rgb(246, 218, 184);
+  --background1: rgb(253, 229, 200);
+  --unclickable_background: rgb(250, 226, 196);
   --brown-text: rgba(112, 92, 73);
 }
 
@@ -151,35 +151,7 @@ a:hover {
   font-size: 25px;
 }
 
-.ingredients_wrapper {
-  margin-left: auto;
-  margin-right: auto;
 
-}
-
-.ingredients {
-  border-radius: 10px;
-  background-color: var(--background1);
-  min-width: 400px;
-  margin-left: 15px;
-  margin-bottom: 30px;
-}
-
-.ingredients ul {
-  list-style-type: none;
-}
-
-.ingredients h4 {
-  text-decoration: underline;
-}
-
-.ingredients h3 {
-  border-top: 1px solid rgba(128, 128, 128, 0.3);
-  border-left: 1px solid rgba(128, 128, 128, 0.3);
-  border-right: 1px solid rgba(128, 128, 128, 0.3);
-  margin-bottom: 0;
-  margin-top: 15px;
-}
 
 
 .effe:hover {
@@ -353,7 +325,7 @@ a:hover {
   width: 100%;
   min-height: auto;
   padding-top: 5%;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   background-color: var(--background1);
 }
 
@@ -411,7 +383,36 @@ a:hover {
   border-radius: 0 15px 15px 0;
 }
 
+.ingredients_wrapper {
+  margin-left: auto;
+  margin-right: auto;
 
+}
+
+.ingredients {
+  border-radius: 10px;
+  background-color: var(--background1);
+  min-width: 400px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.ingredients h4 {
+  text-decoration: underline;
+}
+
+.ingredients h3 {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 0;
+  margin-top: 15px;
+}
 
 
 /* footer */
