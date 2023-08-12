@@ -3,7 +3,7 @@
 :root {
   --background1: rgb(253, 229, 200);
   --unclickable_background: rgb(250, 226, 196);
-  --brown-text: rgba(112, 92, 73);
+  --brown-text: rgb(90, 68, 48);
 }
 
 
@@ -432,8 +432,14 @@ a:hover {
   list-style-type: none;
 }
 
+.ingredients h3 {
+  color: var(--brown-text);
+  font-size: 27px;
+}
+
 .ingredients h4 {
   text-decoration: underline;
+  font-size: 21px;
 }
 
 .ingredients h3 {
@@ -451,7 +457,7 @@ a:hover {
 .grid h4,
 li {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
-  height: 27px;
+  height: 26px;
   border-left: 1px solid rgba(128, 128, 128, 0.3);
   border-right: 1px solid rgba(128, 128, 128, 0.3);
   display: flex;
@@ -477,6 +483,11 @@ li {
   margin-left: 0px;
   margin-right: 0px;
   font-size: 1.7rem;
+}
+
+.zubereitung h3 {
+  font-size: 27px;
+  color: var(--brown-text);
 }
 
 .button_wrapper {
