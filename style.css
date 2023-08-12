@@ -209,7 +209,7 @@ a:hover {
 }
 
 .col.header .gramabook {
-  text-shadow: -3px 6px var(--brown-text);
+  text-shadow: 3px 3px var(--brown-text);
 }
 
 .col.header h2 {
