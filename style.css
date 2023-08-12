@@ -4,6 +4,7 @@
   --background1: rgb(253, 229, 200);
   --unclickable_background: rgb(250, 226, 196);
   --brown-text: rgb(90, 68, 48);
+  --red-shadow: rgba(255, 0, 0, 0.267);
 }
 
 
@@ -209,7 +210,7 @@ a:hover {
 }
 
 .col.header .gramabook {
-  text-shadow: 3px 3px var(--brown-text);
+  text-shadow: 3px 3px var(--red-shadow);
 }
 
 .col.header h2 {
@@ -237,6 +238,7 @@ a:hover {
 
 #special-word {
   color: white;
+  text-shadow: 2px 2px var(--red-shadow);
 }
 
 /* 
