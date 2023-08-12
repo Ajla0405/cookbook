@@ -53,7 +53,7 @@ body {
     linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0); */
     background-image: url("src/assets/1b16f88681f431725040197d0d689eed.jpeg");
   /* background-size: 45px 45px; */
-  color: black;
+  color: rgb(37, 21, 0);
   /* font-size: 1.0rem; */
 
   
@@ -286,10 +286,11 @@ a:hover {
 }
 
 .navbar2 a {  
-  color: black;
+  color: rgb(37, 21, 0);
   text-align: center;
   /* padding: 14px; */
   text-decoration: none;
+  font-weight: 600;
 }  
 
 .navrow {
