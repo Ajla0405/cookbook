@@ -500,6 +500,33 @@ li {
 }
 
 
+
+
+
+/* contact */
+
+.contact_container {
+  width: 100%;
+  height: 80vh;
+  margin-top: 45px;
+}
+
+.contact_row {
+  height: 100%;
+}
+
+.contact_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitenkarte {
+  width: 200px;
+  height: 100px;
+  background-color: var(--unclickable_background);
+}
+
 /* media-queries */
 
 @media screen and (min-width: 1600px) {
