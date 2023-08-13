@@ -140,6 +140,7 @@ a:hover {
   margin-left: 0;
   margin-right: 0;
   border-radius: 15px !important;
+  box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.103);
 }
 
 .text-pastry {
@@ -150,6 +151,7 @@ a:hover {
   color: var(--brown-text);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
+  
 }
 
 
@@ -164,6 +166,7 @@ a:hover {
 .effe2:hover {
   transition: transform 0.5s;
   transform: scale(1.01, 1.01);
+  box-shadow: 4px 3px 8px 2px rgba(0, 0, 0, 0.205);
 }
 
 .card-body {
@@ -507,7 +510,7 @@ li {
 
 .contact_container {
   width: 100%;
-  height: 80vh;
+  height: 74vh;
   margin-top: 45px;
 }
 
