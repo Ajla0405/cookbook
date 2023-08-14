@@ -240,6 +240,7 @@ a:hover {
 
 .ingredients ul {
   list-style-type: none;
+  color: rgba(112, 92, 73);
 }
 
 .tagesgericht_title {
@@ -252,6 +253,7 @@ a:hover {
   background-color: antiquewhite;
   border-radius: 20px;
   padding-bottom: 15px;
+  color: rgba(112, 92, 73);
 }
 
 .text_mitte {
@@ -273,6 +275,8 @@ a:hover {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .lunch_page {
@@ -280,13 +284,13 @@ a:hover {
 }
 
 .zubereitung {
-  background-color: antiquewhite;
   border-radius: 10px;
   padding: 15px;
   margin-top: 30px;
   background-color: rgb(246, 218, 184);
   margin-left: 0px;
   margin-right: 0px;
+  color: rgba(112, 92, 73);
 }
 
 .ingredients h4 {
@@ -327,6 +331,71 @@ li {
   height: 50px;
 }
 
+/*AYLA CSS*/
+
+.dessert-container {
+  background-color: white;
+}
+.titel_title-dessert {
+  padding-top: 10px;
+  margin: auto;
+  color: rgb(112, 92, 73);
+}
+
+.header-line {
+  height: 10px;
+  width: 80%;
+  background-color: rgb(246, 218, 184);
+  margin: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.icons_width-dessert {
+  width: 30px;
+  height: auto;
+  color: rgb(246, 218, 184);
+}
+.ingredient-dessert {
+  color: rgba(112, 92, 73);
+  border-radius: 4px;
+  padding: 0;
+  padding-top: 5px;
+  border: 20px solid rgb(255, 255, 255);
+  background-color: rgb(246, 218, 184);
+}
+
+.ingredient-list {
+  margin-bottom: 20px;
+}
+.header-line-ingredients {
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  margin: 10px auto;
+}
+.ingredient-list > li {
+  list-style: none;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+  border: none;
+  font-family: cursive;
+}
+
+.ingredient-list > p {
+  padding-top: 20px;
+  font-family: "Yesteryear", cursive;
+  font-size: 20px;
+}
+
+.cake-img {
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  max-width: 100%;
+}
+.dessert-steps > p {
+  font-family: cursive;
+}
 /* media-queries */
 
 @media screen and (min-width: 1600px) {
