@@ -36,13 +36,19 @@ function set_to_greeting() {
 
 //todo: check if name is set
 
-const uname = localStorage.getItem("name");
+let uname = localStorage.getItem("name");
 console.log('uname: '+uname);
+
+// temporarily disabled for form development
+// uname = null;
 if (uname) {
   set_to_greeting();
 } else {
   var element = document.getElementById("userGreeting");
   element.classList.add("begone");
+
+  var element = document.getElementById("name_form");
+  element.classList.remove("begone");
 
   name_form.addEventListener("submit", (e) => {
     e.preventDefault();

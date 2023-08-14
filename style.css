@@ -5,6 +5,7 @@
   --unclickable_background: rgb(250, 226, 196);
   --brown-text: rgb(90, 68, 48);
   --red-shadow: rgba(255, 0, 0, 0.267);
+  --middle-brown: rgb(173, 131, 79);
 }
 
 
@@ -104,6 +105,12 @@ a:hover {
   height: 100px;
 }
 
+
+
+
+
+/* form */
+
 #name_form {
   /* todo: form kleiner, button kleiner */
   height: 100px;
@@ -111,7 +118,55 @@ a:hover {
   color: var(--brown-text);
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+
+
+.search-container {
+  width: 100%;
+  height: 200px;
+  background-color: #646464;
+  z-index: 4;
+}
+
+#fname {
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.name_submit {
+  border: none;
+  outline: none;
+  background: var(--brown-text);
+  width: 50%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--background1);
+  font-weight: 700;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.name_submit:hover {
+  color: rgb(90, 68, 48);
+  background-color: var(--middle-brown);
+  border: 1px solid var(--brown-text);
+}
+
+
+/* ende form */
+
+
+
+
+
+
 
 .card-title {
   border-radius: 10px 10px 0px 0px;
