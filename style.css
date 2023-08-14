@@ -122,20 +122,18 @@ a:hover {
   margin: 0 auto;
 }
 
-
-
-.search-container {
-  width: 100%;
-  height: 200px;
-  background-color: #646464;
-  z-index: 4;
-}
-
 #fname {
   width: 300px;
-  border-radius: 10px;
+  border-radius: 15px;
   outline: none;
   border: none;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0px 12px;
+  margin: 2px 0;
+  box-sizing: border-box;
 }
 
 .name_submit {
