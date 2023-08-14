@@ -47,7 +47,10 @@ if (uname) {
   var element = document.getElementById("userGreeting");
   element.classList.add("begone");
 
-  var element = document.getElementById("name_form");
+  element = document.getElementById("pastries");
+  element.classList.add("begone");
+
+  element = document.getElementById("name_form");
   element.classList.remove("begone");
 
   name_form.addEventListener("submit", (e) => {
