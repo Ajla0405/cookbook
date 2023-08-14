@@ -23,25 +23,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header>
-      <div class="navbar2 container">
-        <div class="row navrow">
-          <a href="index.html"
-            ><div class="col nav-button"><span>Home</span></div></a
-          >
-          <a href="contact.html"
-            ><div class="col nav-button"><span>Contact</span></div></a
-          >
-          <a href="#footer"
-            ><div class="col nav-button"><span>About</span></div></a
-          >
-          <!-- <div class="col-9 mt-space"></div> -->
+    <div class="body_wrapper">
+      <header>
+        <div class="navbar2 container">
+          <div class="row navrow">
+            <a href="index.html"
+              ><div class="col nav-button"><span>Home</span></div></a
+            >
+            <a href="contact.html"
+              ><div class="col nav-button"><span>Contact</span></div></a
+            >
+            <a href="#footer"
+              ><div class="col nav-button"><span>About</span></div></a
+            >
+            <!-- <div class="col-9 mt-space"></div> -->
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main class="lunch_page">
-      <!-- <nav id="navbar1" class="navbar navbar-expand-lg navbar-light bg-light sticky">
+      <main class="lunch_page">
+        <!-- <nav id="navbar1" class="navbar navbar-expand-lg navbar-light bg-light sticky">
         <a class="navbar-brand" href="index.html">Grandma's Cookbook</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -60,145 +61,148 @@
           </ul>
         </div>
       </nav>       -->
-      <div class="container lunch_container">
-        <!-- <div class="row button_wrapper">
+        <div class="container lunch_container">
+          <!-- <div class="row button_wrapper">
           <a href="index.html" class="row back_button"> back </a>
         </div> -->
-        <!-- Alfi 08.08,2023 -->
+          <!-- Alfi 08.08,2023 -->
 
-        <div class="titel_title title_text_center unclickable">
-          <h1>Grandma´s Lunch</h1>
-          <hr class="title-dash" />
-          <h2>Plov</h2>
+          <div class="titel_title title_text_center unclickable">
+            <h1>Grandma´s Lunch</h1>
 
-          <div class="col_icons row">
-            <div class="col">
-              <img
-                class="icons_width"
-                src="src/assets/pngwing.com (3).png"
-                alt="cooking pot"
-              />
-              <p>braise</p>
-            </div>
-            <div class="col">
-              <img
-                class="icons_width"
-                src="src/assets/pngwing.com (1).png"
-                alt="clock"
-              />
-              <p>60 minutes</p>
-            </div>
-            <div class="col">
-              <img
-                class="icons_width"
-                src="src/assets/pngwing.com (2).png"
-                alt="mixing spoon"
-              />
-              <p>2-99+ persons</p>
-            </div>
-            <div class="col">
-              <img
-                class="icons_width"
-                src="src/assets/pngwing.com (5).png"
-                alt="star"
-              />
-              <p>10/10</p>
-            </div>
-          </div>
-        </div>
+            <hr class="little-dash" />
+            <h2>Plov</h2>
 
-        <!-- shavkat 08.08 -->
-        <div class="row">
-          <div class="ingredients_wrapper ">
-            <div class="col-6 ingredients grid unclickable">
-              <h3>Zutaten</h3>
-              <ul>
-                <h4>Hauptzutaten</h4>
-                <li>Lammfleisch o. Rindfleisch</li>
-                <li>Reis</li>
-                <li>gelbe Möhren</li>
-                <li>Pflanzenöl</li>
-                <li>Zwiebeln</li>
-                <h4>Gewürze</h4>
-                <li>Salz</li>
-                <li>Knoblauch</li>
-                <li>Kreuzkümmel</li>
-                <li>Pfeffer</li>
-                <h4>Optional</h4>
-                <li>Kichererbsen</li>
-                <li>Rosinen</li>
-                <li>getrocknete Aprikosen</li>
-                <li>Nüsse</li>
-                <li class="last_ingredient">Koriander</li>
-              </ul>
-            </div>
-          </div>
+            <hr class="title-dash" />
 
-          <div class="col dish_img_wrapper">
-            <div class="dish_img">
-              <div
-                id="myCarousel"
-                class="carousel slide diashow"
-                data-ride="carousel"
-              >
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#myCarousel"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img
-                      src="src/assets/Zeichenfläche 1.jpg"
-                      class="diashow_img"
-                      alt="Los Angeles"
-                    />
-                  </div>
-
-                  <div class="item">
-                    <img
-                      src="src/assets/Zeichenfläche 2.jpg"
-                      class="diashow_img"
-                      alt="Chicago"
-                    />
-                  </div>
-
-                  <div class="item">
-                    <img
-                      src="src/assets/Zeichenfläche 3.jpg"
-                      class="diashow_img"
-                      alt="New York"
-                    />
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a
-                  class="left carousel-control"
-                  href="#myCarousel"
-                  data-slide="prev"
-                >
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="right carousel-control"
-                  href="#myCarousel"
-                  data-slide="next"
-                >
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+            <div class="col_icons row">
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="src/assets/pngwing.com (3).png"
+                  alt="cooking pot"
+                />
+                <p>braise</p>
               </div>
-              <!-- slideshow -->
-              <!-- <img
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="src/assets/pngwing.com (1).png"
+                  alt="clock"
+                />
+                <p>60 minutes</p>
+              </div>
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="src/assets/pngwing.com (2).png"
+                  alt="mixing spoon"
+                />
+                <p>2-99+ persons</p>
+              </div>
+              <div class="col">
+                <img
+                  class="icons_width"
+                  src="src/assets/pngwing.com (5).png"
+                  alt="star"
+                />
+                <p>10/10</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- shavkat 08.08 -->
+          <div class="row">
+            <div class="ingredients_wrapper">
+              <div class="col-6 ingredients grid unclickable">
+                <h3>Zutaten</h3>
+                <ul>
+                  <h4>Hauptzutaten</h4>
+                  <li>Lammfleisch o. Rindfleisch</li>
+                  <li>Reis</li>
+                  <li>gelbe Möhren</li>
+                  <li>Pflanzenöl</li>
+                  <li>Zwiebeln</li>
+                  <h4>Gewürze</h4>
+                  <li>Salz</li>
+                  <li>Knoblauch</li>
+                  <li>Kreuzkümmel</li>
+                  <li>Pfeffer</li>
+                  <h4>Optional</h4>
+                  <li>Kichererbsen</li>
+                  <li>Rosinen</li>
+                  <li>getrocknete Aprikosen</li>
+                  <li>Nüsse</li>
+                  <li class="last_ingredient">Koriander</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col dish_img_wrapper">
+              <div class="dish_img">
+                <div
+                  id="myCarousel"
+                  class="carousel slide diashow"
+                  data-ride="carousel"
+                >
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#myCarousel"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img
+                        src="src/assets/Zeichenfläche 1.jpg"
+                        class="diashow_img"
+                        alt="Los Angeles"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="src/assets/Zeichenfläche 2.jpg"
+                        class="diashow_img"
+                        alt="Chicago"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="src/assets/Zeichenfläche 3.jpg"
+                        class="diashow_img"
+                        alt="New York"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a
+                    class="left carousel-control"
+                    href="#myCarousel"
+                    data-slide="prev"
+                  >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="right carousel-control"
+                    href="#myCarousel"
+                    data-slide="next"
+                  >
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!-- slideshow -->
+                <!-- <img
                 class="slides"
                 src="src/assets/bild (1).jpg"
                 style="width: 100%"
@@ -228,88 +232,89 @@
                 src="src/assets/bild (6).jpg"
                 style="width: 100%"
               /> -->
+              </div>
+            </div>
+          </div>
+          <div class="row steps zubereitung unclickable">
+            <div class="col">
+              <h3>Zubereitung</h3>
+              <p>
+                Schneiden Sie das Fleisch in Würfel, schneiden Sie Karotten in
+                Scheiben und würfeln Sie Zwiebeln.
+              </p>
+              <p>
+                Zwiebeln anbraten (oder erst nach dem Fleisch hinzugeben). In
+                einem vorgeheizten Schmortopf die Seiten des Fleisches mit einer
+                Zange anbraten. Kümmel hinzu geben.
+              </p>
+              <p>
+                Geben Sie Karotten (und Zwiebeln) in den Schmortopf und braten
+                Sie sie an.
+              </p>
+              <p>
+                Langkornreis und Lorbeerblätter in den Schmortopf geben.
+                Schneiden Sie die Oberseite einer Knoblauchzehe ab und legen Sie
+                die gesamte Knoblauchzehe in den Schmortopf. Wasser hinzufügen
+                und großzügig mit Salz und Pfeffer würzen. Traditionell nicht
+                umrühren und den Reis über dem Fleisch köcheln. Optional mit
+                einem Stock oder Geschirr Löcher in den Reis stechen um die
+                Wärmeverteilung im Topf zu regulieren. Andernfalls regelmäßig
+                umrühren.
+              </p>
+              <p>
+                Den Plov köcheln lassen. Reduzieren Sie die Hitze auf eine
+                niedrige Stufe, schließen Sie den Deckel und kochen Sie das
+                Ganze weitere 40–50 Minuten lang.
+              </p>
+              <p>Warm mit eingelegtem Gemüse oder Salat servieren.</p>
+              <p>
+                further reading:
+                <a
+                  href="https://momsdish.com/recipe/222/uzbek-plov"
+                  target="”_blank”"
+                  >momsdish</a
+                >
+                /
+                <a
+                  href="https://www.gutekueche.de/usbekischer-plow-rezept-18206"
+                  target="”_blank”"
+                  >gutekueche</a
+                >
+              </p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </main>
+
+      <footer id="footer">
+        <div class="container footer_container">
+          <div class="row footer_row">
+            <div class="col">
+              <div>Shavkat, Alfi, Philipp, Ayla &copy;</div>
             </div>
           </div>
         </div>
-        <div class="row steps zubereitung unclickable">
-          <div class="col">
-            <h3>Zubereitung</h3>
-            <p>
-              Schneiden Sie das Fleisch in Würfel, schneiden Sie Karotten in
-              Scheiben und würfeln Sie Zwiebeln.
-            </p>
-            <p>
-              Zwiebeln anbraten (oder erst nach dem Fleisch hinzugeben). In
-              einem vorgeheizten Schmortopf die Seiten des Fleisches mit einer
-              Zange anbraten. Kümmel hinzu geben.
-            </p>
-            <p>
-              Geben Sie Karotten (und Zwiebeln) in den Schmortopf und braten Sie
-              sie an.
-            </p>
-            <p>
-              Langkornreis und Lorbeerblätter in den Schmortopf geben. Schneiden
-              Sie die Oberseite einer Knoblauchzehe ab und legen Sie die gesamte
-              Knoblauchzehe in den Schmortopf. Wasser hinzufügen und großzügig
-              mit Salz und Pfeffer würzen. Traditionell nicht umrühren und den
-              Reis über dem Fleisch köcheln. Optional mit einem Stock oder
-              Geschirr Löcher in den Reis stechen um die Wärmeverteilung im Topf
-              zu regulieren. Andernfalls regelmäßig umrühren.
-            </p>
-            <p>
-              Den Plov köcheln lassen. Reduzieren Sie die Hitze auf eine
-              niedrige Stufe, schließen Sie den Deckel und kochen Sie das Ganze
-              weitere 40–50 Minuten lang.
-            </p>
-            <p>Warm mit eingelegtem Gemüse oder Salat servieren.</p>
-            <p>
-              further reading:
-              <a
-                href="https://momsdish.com/recipe/222/uzbek-plov"
-                target="”_blank”"
-                >momsdish</a
-              >
-              /
-              <a
-                href="https://www.gutekueche.de/usbekischer-plow-rezept-18206"
-                target="”_blank”"
-                >gutekueche</a
-              >
-            </p>
-          </div>
-        </div>
-        <!--  -->
-      </div>
-    </main>
+      </footer>
 
-    <footer id="footer">
-      <div class="container footer_container">
-        <div class="row footer_row">
-          <div class="col">
-            <div>Shavkat, Alfi, Philipp, Ayla &copy;</div>
-          </div>
-        </div>
-      </div>
-    </footer>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+      ></script>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-
-    <script>
-      /* 
+      <script>
+        /* 
         *******************************
         *******************************
         Script for Slideshow
@@ -317,22 +322,23 @@
               Thanks Alfi
         */
 
-      // var myIndex = 0;
-      // carousel();
+        // var myIndex = 0;
+        // carousel();
 
-      // function carousel() {
-      //   var i;
-      //   var x = document.getElementsByClassName("slides");
-      //   for (i = 0; i < x.length; i++) {
-      //     x[i].style.display = "none";
-      //   }
-      //   myIndex++;
-      //   if (myIndex > x.length) {
-      //     myIndex = 1;
-      //   }
-      //   x[myIndex - 1].style.display = "block";
-      //   setTimeout(carousel, 2000); // Change image every 2 seconds
-      // }
-    </script>
+        // function carousel() {
+        //   var i;
+        //   var x = document.getElementsByClassName("slides");
+        //   for (i = 0; i < x.length; i++) {
+        //     x[i].style.display = "none";
+        //   }
+        //   myIndex++;
+        //   if (myIndex > x.length) {
+        //     myIndex = 1;
+        //   }
+        //   x[myIndex - 1].style.display = "block";
+        //   setTimeout(carousel, 2000); // Change image every 2 seconds
+        // }
+      </script>
+    </div>
   </body>
 </html>
