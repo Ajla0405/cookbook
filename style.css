@@ -1,20 +1,70 @@
+/* variables */
+
+:root {
+  --background1: rgb(253, 237, 216);
+  --unclickable_background: rgb(247, 213, 172);
+  --brown-text: rgb(90, 68, 48);
+  --red-shadow: rgba(255, 0, 0, 0.267);
+  --middle-brown: rgb(173, 131, 79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* globals */
+
+
+.begone {
+  display: none;
+}
+
+#name_form.begone { 
+  display: none;
+}
 
 * {
   padding: 0;
   margin: 0;
 }
 
-body {
-  background: white;
-  background-image: linear-gradient(
+.body_wrapper {
+  height: 100%;
+  background: rgb(255, 255, 255);
+  /* background-image: linear-gradient(
       90deg,
-      rgba(200, 0, 0, 0.3) 50%,
+      rgba(200, 0, 0, 0.21) 50%,
       transparent 0
     ),
-    linear-gradient(rgba(200, 0, 0, 0.3) 50%, transparent 0);
-  background-size: 45px 45px;
-  background-attachment: fixed;
+    linear-gradient(rgba(200, 0, 0, 0.21) 50%, transparent 0); */
+    /* background-image: url("src/assets/1b16f88681f431725040197d0d689eed.jpeg"); */
+    /* position: relative;
+    opacity: 0.5;
+    z-index: -1;   */
+  background-size: 420px 240px;
+  color: rgb(44, 25, 0);
+
+  padding-bottom: 1px;
+  
+  /* font-size: 0.1rem; */
+
+  /* background-attachment: fixed; */  /* davon wird einem Schwindelig */
 }
 
 .title {
@@ -22,6 +72,11 @@ body {
   margin-right: auto;
   min-height: 200px;
 }
+
+h1 {
+  font-size: 42px;
+}
+
 
 h1,
 h2,
@@ -48,11 +103,79 @@ a:hover {
   background-size: 100%;
 }
 
+
+.unclickable{
+  background-color: var(--unclickable_background) !important;
+  border-radius: inherit;
+}
+
 #userGreeting {
   font-size: 3.3rem;
   line-height: 4rem;
-  color: rgb(112, 92, 73);
+  color: var(--brown-text);
+  height: 100px;
 }
+
+
+
+
+
+/* form */
+
+#name_form {
+  /* todo: form kleiner, button kleiner */
+  height: 100px;
+  font-size: 1.7rem;
+  color: var(--brown-text);
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#fname {
+  width: 300px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0px 12px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+
+.name_submit {
+  border: none;
+  outline: none;
+  background: var(--brown-text);
+  width: 50%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--background1);
+  font-weight: 700;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.name_submit:hover {
+  color: rgb(90, 68, 48);
+  background-color: var(--middle-brown);
+  border: 1px solid var(--brown-text);
+}
+
+
+/* ende form */
+
+
+
+
+
+
 
 .card-title {
   border-radius: 10px 10px 0px 0px;
@@ -60,9 +183,9 @@ a:hover {
   font-family: "Yesteryear", cursive;
   font-size: 25px;
   padding-top: 10px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   text-decoration: none;
-  color: rgba(112, 92, 73);
+  color: var(--brown-text);
   margin-bottom: 0;
 }
 
@@ -72,50 +195,30 @@ a:hover {
 }
 
 .pastry {
-  margin: auto;
   height: 65px;
   cursor: pointer;
   text-align: center;
-  background-color: rgb(246, 218, 184);
-  margin-bottom: 25px;
+  background-color: var(--background1);
+  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 15px !important;
+  box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.103);
 }
 
 .text-pastry {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
-  color: rgba(112, 92, 73);
+  /* color: white; */
+  color: var(--brown-text);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
+  
 }
 
-.ingredients_wrapper {
-  margin-left: auto;
-  margin-right: auto;
 
-}
-
-.ingredients {
-  border-radius: 10px;
-  background-color: rgb(246, 218, 184);
-  min-width: 400px;
-  margin-left: 15px;
-}
-
-.ingredients ul {
-  list-style-type: none;
-}
-
-.ingredients h4 {
-  text-decoration: underline;
-}
-
-.ingredients h3 {
-  border-top: 1px solid rgba(128, 128, 128, 0.3);
-  border-left: 1px solid rgba(128, 128, 128, 0.3);
-  border-right: 1px solid rgba(128, 128, 128, 0.3);
-  margin-bottom: 0;
-  margin-top: 15px;
-}
 
 
 .effe:hover {
@@ -127,6 +230,7 @@ a:hover {
 .effe2:hover {
   transition: transform 0.5s;
   transform: scale(1.01, 1.01);
+  box-shadow: 4px 3px 8px 1px rgba(0, 0, 0, 0.274);
 }
 
 .card-body {
@@ -140,8 +244,8 @@ a:hover {
 }
 
 .container.text_mitte {
-  border-radius: 20px;
-  background-color: rgb(246, 218, 184);
+  border-radius: 15px;
+  background-color: var(--background1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +265,7 @@ a:hover {
 .row.header {
   margin: 50px 0;
   border-radius: 20px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   height: 500px;
   padding: 30px;
 }
@@ -170,6 +274,10 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.col.header .gramabook {
+  text-shadow: 3px 3px var(--red-shadow);
 }
 
 .col.header h2 {
@@ -197,6 +305,7 @@ a:hover {
 
 #special-word {
   color: white;
+  text-shadow: 2px 2px var(--red-shadow);
 }
 
 /* 
@@ -220,12 +329,12 @@ a:hover {
 .bt {  
   font-family: "Yesteryear", cursive;
   font-size: 1.3em;
-  color: rgba(112, 92, 73);
-  box-shadow: 4px 4px 4px   rgba(112, 92, 73);
+  color: var(--brown-text);
+  box-shadow: 4px 4px 4px   var(--brown-text);
   border-radius: 8px;
   width: 180px;
   height: 80px;  
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   margin: 5px;
 }
 
@@ -235,13 +344,21 @@ a:hover {
 
 .navbar2 {
   height: 56px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   border-radius: 0 0 15px 15px;
   display: flex;
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.navbar2 a {  
+  color: rgb(37, 21, 0);
+  text-align: center;
+  /* padding: 14px; */
+  text-decoration: none;
+  font-weight: 600;
+}  
 
 .navrow {
   height: 90%;
@@ -250,21 +367,54 @@ a:hover {
 
 .nav-button {
   height: 100%;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
   border-radius: 15px;
   width: 100px;
   margin-right: 1px;
-  padding-top: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-button span {
-  margin-top: 11px;
+
+
+/* footer */
+
+
+.footer_container {
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 40%;
 }
+
+
+.footer_row {
+  height: 100%;
+  background-color: var(--unclickable_background);
+  border-radius: 15px;
+}
+
+.footer_row .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+/* ################################################################################### */
+
+
+
+
 
 /* tagesmahlzeiten */
 
 .lunch_container {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   border-radius: 20px;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -279,9 +429,16 @@ a:hover {
   margin-right: auto;
   width: 100%;
   min-height: auto;
-  padding-top: 5%;
-  margin-bottom: 30px;
-  background-color: rgb(246, 218, 184);
+  padding-top: 1%;
+  margin-bottom: 45px;
+  background-color: var(--background1);
+}
+
+.little-dash {
+  margin: 0 auto;
+  width: 40%;
+  border-color: var(--brown-text);
+  border-width: 1px;
 }
 
 .title-dash {
@@ -300,7 +457,7 @@ a:hover {
 .tagesgericht_title {
   width: 100%;
   min-height: 200px;
-  background-color: rgb(246, 218, 184);
+  background-color: var(--background1);
 }
 
 .text_mitte {
@@ -312,42 +469,63 @@ a:hover {
   min-height: 200px;
 }
 
-.dish_img_wrapper{
-  height: 100%;
-  /* min-height: 400px; */
-}
-
 .dish_img {
   margin-left: auto;
-  min-width: 600px;
-  height: 100%
+  min-width: 490px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* height: 100% */
   /* height: 100%; */
-}
-
-.carousel.slide.diashow {
-  height: 100%;
 }
 
 .diashow_img {
   width: 100%;
 }
 
-
-/* ################################################################################### */
-
-
-.lunch_page {
-  text-align: center;
+.carousel-control.left {
+  border-radius: 15px 0 0 15px;
 }
 
-.zubereitung {
-  background-color: antiquewhite;
+.carousel-control.right {
+  border-radius: 0 15px 15px 0;
+}
+
+.ingredients_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ingredients {
   border-radius: 10px;
-  padding: 15px;
-  margin-top: 30px;
-  background-color: rgb(246, 218, 184);
-  margin-left: 0px;
-  margin-right: 0px;
+  background-color: var(--background1);
+  min-width: 370px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.ingredients h3 {
+  color: var(--brown-text);
+  font-size: 27px;
+}
+
+.ingredients h4 {
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+.ingredients h3 {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .grid {
@@ -357,12 +535,12 @@ a:hover {
 .grid h4,
 li {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
-  height: 25px;
+  height: 26px;
   border-left: 1px solid rgba(128, 128, 128, 0.3);
   border-right: 1px solid rgba(128, 128, 128, 0.3);
+  display: flex;
+  flex-direction: column-reverse;
 }
-
-
 
 .grid h4 {
   padding: 0;
@@ -373,11 +551,55 @@ li {
   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
 
+
+.zubereitung {
+  /* background-color: antiquewhite; */
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: var(--background1);
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 1.7rem;
+}
+
+.zubereitung h3 {
+  font-size: 27px;
+  color: var(--brown-text);
+}
+
 .button_wrapper {
   position: relative;
   height: 50px;
 }
 
+
+
+
+
+/* contact */
+
+.contact_container {
+  width: 100%;
+  height: 74vh;
+  margin-top: 45px;
+}
+
+.contact_row {
+  height: 100%;
+}
+
+.contact_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitenkarte {
+  width: 200px;
+  height: 100px;
+  background-color: var(--unclickable_background);
+}
 
 /* media-queries */
 
