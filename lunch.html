@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lunch</title>
+    <link rel="icon" type="image/png" href="src/assets/pngwing.com (3).png">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yesteryear&display=swap"
       rel="stylesheet"
@@ -25,22 +26,25 @@
   <body>
     <div class="body_wrapper">
       <header>
-        <div class="navbar2 container">
-          <div class="row navrow">
-            <a href="index.html"
-              ><div class="col nav-button"><span>Home</span></div></a
-            >
-            <a href="contact.html"
-              ><div class="col nav-button"><span>Contact</span></div></a
-            >
-            <a href="#footer"
-              ><div class="col nav-button"><span>About</span></div></a
-            >
-            <!-- <div class="col-9 mt-space"></div> -->
+        <div class="container">
+          <header>
+            <div class="navbar2">           
+              <div class="navbar_left">
+                <a href="index.html" class="nav-button">Home</a>
+                <a href="lunch.html" class="nav-button">Lunch</a> 
+                <a href="about.html" class="nav-button">About us</a> 
+              </div>
+              <div class="navbar_right">
+                <a href="#" class="fa navbar_right"><img class="site-logo" src="src/assets/facebook-f.svg" alt=""></a>
+                <a href="#" class="fa"><img class="site-logo" src="src/assets/twitter.svg" alt=""></a>      
+                <a  href="#" class="fa"><img class="site-logo" src="src/assets/tiktok.svg" alt=""></a>      
+              </div>         
+            </div>
+          </header>
           </div>
-        </div>
+        
       </header>
-
+    </div>
       <main class="lunch_page">
         <!-- <nav id="navbar1" class="navbar navbar-expand-lg navbar-light bg-light sticky">
         <a class="navbar-brand" href="index.html">Grandma's Cookbook</a>
@@ -236,46 +240,50 @@
             </div>
           </div>
           <div class="row steps zubereitung unclickable">
-            <div class="col">
+            <div class="col steps">
               <h3>Zubereitung</h3>
+              <hr class="little-dash-steps" />
               <p>
-                Schneiden Sie das Fleisch in Würfel, schneiden Sie Karotten in
-                Scheiben und würfeln Sie Zwiebeln.
+                1. Schneiden Sie das Fleisch in Würfel, schneiden Sie Karotten
+                in Scheiben und würfeln Sie Zwiebeln.
               </p>
               <p>
-                Zwiebeln anbraten (oder erst nach dem Fleisch hinzugeben). In
+                2. Zwiebeln anbraten (oder erst nach dem Fleisch hinzugeben). In
                 einem vorgeheizten Schmortopf die Seiten des Fleisches mit einer
                 Zange anbraten. Kümmel hinzu geben.
               </p>
               <p>
-                Geben Sie Karotten (und Zwiebeln) in den Schmortopf und braten
-                Sie sie an.
+                3. Geben Sie Karotten (und Zwiebeln) in den Schmortopf und
+                braten Sie sie an.
               </p>
               <p>
-                Langkornreis und Lorbeerblätter in den Schmortopf geben.
-                Schneiden Sie die Oberseite einer Knoblauchzehe ab und legen Sie
+                4. Langkornreis und Lorbeerblätter in den Schmortopf geben.
+                Schneiden Sie die Oberseite einer Knoblauchzehe ab und legen
+                Sie<br />
                 die gesamte Knoblauchzehe in den Schmortopf. Wasser hinzufügen
-                und großzügig mit Salz und Pfeffer würzen. Traditionell nicht
+                und großzügig mit Salz und Pfeffer würzen.Traditionell nicht
                 umrühren und den Reis über dem Fleisch köcheln. Optional mit
                 einem Stock oder Geschirr Löcher in den Reis stechen um die
                 Wärmeverteilung im Topf zu regulieren. Andernfalls regelmäßig
                 umrühren.
               </p>
               <p>
-                Den Plov köcheln lassen. Reduzieren Sie die Hitze auf eine
+                5. Den Plov köcheln lassen. Reduzieren Sie die Hitze auf eine
                 niedrige Stufe, schließen Sie den Deckel und kochen Sie das
                 Ganze weitere 40–50 Minuten lang.
               </p>
-              <p>Warm mit eingelegtem Gemüse oder Salat servieren.</p>
+              <p>6. Warm mit eingelegtem Gemüse oder Salat servieren.</p>
               <p>
                 further reading:
                 <a
+                  class="lunch-link"
                   href="https://momsdish.com/recipe/222/uzbek-plov"
                   target="”_blank”"
                   >momsdish</a
                 >
                 /
                 <a
+                  class="lunch-link"
                   href="https://www.gutekueche.de/usbekischer-plow-rezept-18206"
                   target="”_blank”"
                   >gutekueche</a
@@ -291,11 +299,14 @@
         <div class="container footer_container">
           <div class="row footer_row">
             <div class="col">
-              <div>Shavkat, Alfi, Philipp, Ayla &copy;</div>
+              <div>Ayla, Philipp, Shavkat, Alfi &copy; 2023</div>
             </div>
           </div>
         </div>
       </footer>
+
+      
+    </div>
 
       <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -339,6 +350,5 @@
         //   setTimeout(carousel, 2000); // Change image every 2 seconds
         // }
       </script>
-    </div>
   </body>
 </html>
