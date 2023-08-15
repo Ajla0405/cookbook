@@ -38,7 +38,6 @@
     z-index: -1;   */
   background-size: 420px 240px;
   color: rgb(44, 25, 0);
-
   padding-bottom: 1px;
 
   /* font-size: 0.1rem; */
@@ -68,10 +67,6 @@ a:hover {
   text-decoration: none;
 }
 
-.container {
-  text-align: center;
-}
-
 /* main-page */
 
 .main-logo {
@@ -83,7 +78,6 @@ a:hover {
 
 .unclickable {
   background-color: var(--unclickable_background) !important;
-  border-radius: inherit;
 }
 
 #userGreeting {
@@ -144,12 +138,12 @@ input[type="text"] {
 /* ende form */
 
 .card-title {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   text-align: center;
   font-family: "Yesteryear", cursive;
   font-size: 25px;
   padding-top: 10px;
-  background-color: var(--background1);
+  background-color: var(--unclickable_background);
   text-decoration: none;
   color: var(--brown-text);
   margin-bottom: 0;
@@ -164,7 +158,7 @@ input[type="text"] {
   height: 65px;
   cursor: pointer;
   text-align: center;
-  background-color: var(--background1);
+  background-color: var(--unclickable_background);
   margin-bottom: 15px;
   margin-top: 30px;
   margin-left: 0;
@@ -181,6 +175,8 @@ input[type="text"] {
   color: var(--brown-text);
   font-family: "Yesteryear", cursive;
   font-size: 25px;
+  font-size: 25px;
+  border-radius: 10px;
 }
 
 .effe:hover {
@@ -299,27 +295,55 @@ input[type="text"] {
   background-color: var(--background1);
   margin: 5px;
 }
+.navbar_left {
+  width: 100%;
+}
+.navbar_left {
+  width: 100%;
+}
 
 .sticky {
   position: fixed;
 }
-
-.navbar2 {
-  height: 56px;
-  /* background-color: antiquewhite; */
-  border-radius: 0 0 15px 15px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
+.navbar_right {
+  text-align: right;
+  width: 100%;
+}
+.navbar_right {
+  text-align: right;
+  width: 100%;
 }
 
+.navbar2 {
+  width: 100%;
+  margin-top: 5%;
+  display: inline-flex;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
 .navbar2 a {
-  color: rgb(37, 21, 0);
-  text-align: center;
-  /* padding: 14px; */
+  font-family: "Yesteryear", cursive;
+  color: var(--brown-text);
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.7em;
+  margin-right: 15px;
+}
+
+.site-logo {
+  height: 30px;
+  width: 30px;
+  background: no-repeat;
+  filter: invert(35%) sepia(26%) saturate(18%) hue-rotate(325deg)
+    brightness(92%) contrast(110%);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
 
 .navrow {
@@ -329,13 +353,18 @@ input[type="text"] {
 
 .nav-button {
   height: 100%;
-  background-color: var(--background1);
-  border-radius: 15px;
+  background-color: var(--unclickable_background);
+  border-radius: 10px;
   width: 100px;
-  margin-right: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+}
+
+.nav-button:hover {
+  box-shadow: 5px 5px 5px rgb(90, 68, 48);
+  background-color: rgb(251, 241, 213);
+  color: rgb(131, 100, 100);
+  transition: 0.4s ease-in-out;
+  border: 1px solid black;
 }
 
 /* footer */
@@ -511,7 +540,6 @@ li {
 }
 
 .zubereitung {
-  /* background-color: antiquewhite; */
   border-radius: 10px;
   padding: 15px;
   margin-top: 30px;
@@ -530,12 +558,13 @@ li {
   position: relative;
   height: 50px;
 }
-.steps > h3 {
-  margin-bottom: 0;
-}
-.steps > p {
-  font-family: serif;
-  font-size: 16px;
+
+/* contact */
+
+.contact_container {
+  width: 100%;
+  height: 74vh;
+  margin-top: 45px;
 }
 
 .little-dash-steps {
