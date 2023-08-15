@@ -273,8 +273,8 @@ input[type="text"] {
 
 #navbar a {
   color: black;
-  text-align: center;
-  padding: 14px;
+  /* text-align: center; */
+  /* padding: 14px; */
   text-decoration: none;
 }
 
@@ -298,19 +298,12 @@ input[type="text"] {
 .navbar_left {
   width: 100%;
 }
-.navbar_left {
-  width: 100%;
-}
 
 .sticky {
   position: fixed;
 }
 .navbar_right {
-  text-align: right;
-  width: 100%;
-}
-.navbar_right {
-  text-align: right;
+  text-align: right !important;
   width: 100%;
 }
 
