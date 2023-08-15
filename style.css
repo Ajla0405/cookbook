@@ -530,6 +530,26 @@ li {
   position: relative;
   height: 50px;
 }
+.steps > h3 {
+  margin-bottom: 0;
+}
+.steps > p {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.little-dash-steps {
+  margin: auto;
+  width: 35%;
+  border-color: var(--brown-text);
+  border-width: 1.5px;
+  padding-bottom: 20px;
+}
+
+.lunch-link {
+  text-decoration: none;
+  color: rgb(90, 68, 48);
+}
 
 .cake-img {
   object-fit: cover;
