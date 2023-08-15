@@ -561,7 +561,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-color: var(--unclickable_background);
+  border-radius: 15px;
 }
 
 .little-dash-steps {
